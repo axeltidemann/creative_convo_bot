@@ -27,7 +27,6 @@ genre_category_oppo = {
 
 def guofu_load_data():
 	global all_names, all_genre, oppo_map, all_name_set, people_has_oppo
-#	print 'will load data'
 	f = open('names.pk', 'r')
 	all_names = cp.load(f)
 	f.close()
