@@ -28,27 +28,27 @@ def publish(auth_keys, tweet):
 
 if __name__ == '__main__':
     genre, hashtag, opposite_genre = mapping()
-    first, second = find_people(genre)
+    first_name, second_name = find_people(genre)
     KB = KnowledgeBase()
     topic = Topic(hashtag, None, None, None)
-    first_person = KB.traits(first)
-    second_person = KB.traits(second)
-    print first_template(topic, first_person, second_person)
-    print
-    print second_template(topic, second_person, first_person)
+    first_person = KB.traits(first_name)
+    second_person = KB.traits(second_name)
 
-    # bot1_pattern = ('FHRtcITLNDk5HYtam6aIb230K',
-    #                 '0z1aNYk4i8nc4KYyHNvmgkIoi3lkEfVAuRj8BgC9ynP6MAJW6o',
-    #                 ('2978463185-sxEmSJblYUt9hD1lLzVtei4XnBN7btE1AlEYJ5P',
-    #                  'fIE7sHt3VMLtptMEChJFCWFzY2zxqMv6qLDGdtPGyHf0a'))
+    first_tweet = first_template(topic, first_person, second_person)
+    second_tweet = second_template(topic, second_person, first_person)
 
-    # tweet = "I'm alive!"
-    # publish(bot1_pattern, tweet)
+    bot1_pattern = ('FHRtcITLNDk5HYtam6aIb230K',
+                    '0z1aNYk4i8nc4KYyHNvmgkIoi3lkEfVAuRj8BgC9ynP6MAJW6o',
+                    ('2978463185-sxEmSJblYUt9hD1lLzVtei4XnBN7btE1AlEYJ5P',
+                     'fIE7sHt3VMLtptMEChJFCWFzY2zxqMv6qLDGdtPGyHf0a'))
+    publish(bot1_pattern, first_tweet)
+    
+    bot2_pattern = ('A77WTgalcwA8hfDhD6AqWOOaZ',
+                    'C8nTcxf5SJHla2KVqwVTiiflpFyMmLpuEUES62ewp3EcsIErfq',
+                    ('2978543729-GYVjPcoIMUbIqMK9tutLmIuX0gTDwRDHawpiAqc',
+                     'STTt8CaqJ476FsgVPyit8iRHC5zvxaPXWRDUgPLevjrYS'))
+    publish(bot2_pattern, second_tweet)
 
-    # bot2_pattern = ('A77WTgalcwA8hfDhD6AqWOOaZ',
-    #                 'C8nTcxf5SJHla2KVqwVTiiflpFyMmLpuEUES62ewp3EcsIErfq',
-    #                 ('2978543729-GYVjPcoIMUbIqMK9tutLmIuX0gTDwRDHawpiAqc',
-    #                  'STTt8CaqJ476FsgVPyit8iRHC5zvxaPXWRDUgPLevjrYS'))
-
-    # tweet = "I'm alive!"
-    # publish(bot2_pattern, tweet)
+    print first_tweet, len(first_tweet)
+    print 
+    print second_tweet, len(second_tweet)
