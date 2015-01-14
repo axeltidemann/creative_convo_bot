@@ -1,3 +1,5 @@
+# -*- coding: latin-1 -*-
+# Author: axel.tidemann@gmail.com, tomdesmedt@gmail.com
 from pattern.web import URL, DOM
 
 def popular_hashtags():
