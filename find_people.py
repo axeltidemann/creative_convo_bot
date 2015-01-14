@@ -13,8 +13,11 @@ category2genre = {
 genre2category = {}
 
 genre_category_oppo = {
-	'business' : 'entertainment',
+	'entertainment' : 'education',
+	'business' : 'social_change',
 	'social_change' : 'business',
+	'tech' : 'social_change',
+	'education' : 'entertainment'
 }
 
 def guofu_load_data():
@@ -51,12 +54,107 @@ people_has_oppo = None
 guofu_load_data()
 
 def people_in_genres(genre_list):
+	global all_genre
 	people_list = []
 	for genre in genre_list:
 		people_list += all_genre[genre]
 	return set(people_list)
 
+def try_genre(genre, contrast='opponent'):
+	global all_genre, people_has_oppo
+
+	people_of_genre = all_genre[genre]
+	if len(people_of_genre) < 1:
+		return None
+
+	if contrast == 'None':
+		if len(people_of_genre) < 2:
+			return None
+		else:
+			res_list = rand.sample(people_of_genre, 2)
+			return (res_list[0], res_list[1])
+
+	if contrast == 'opponent':
+		people_of_genre_has_oppo = people_of_genre & people_has_oppo
+
+	elif contrast == 'genre':
+		genre_category = genre2category[genre]
+		oppo_category = genre_category_oppo[genre_category]
+		oppo_genres = category2genre[genre_category]
+		return try_genres(oppo_genres)
+
+	if len(people_of_genre_has_oppo) < 1:
+		return None
+
+	first_people = rand.sample(people_of_genre_has_oppo, 1)[0]
+	second_people_cand_list = oppo_map[first_people]
+	second_people = rand.sample(second_people_cand_list, 1)[0]
+
+def try_genres(genre_list, contrast='opponent'):
+	global people_has_oppo
+
+	people_of_genre = people_in_genres(genre_list)
+	if len(people_of_genre) < 1:
+		return None
+
+	if contrast == 'None':
+		if len(people_of_genre) < 2:
+			return None
+		else:
+			res_list = rand.sample(people_of_genre, 2)
+			return (res_list[0], res_list[1])
+
+	if contrast == 'opponent':
+		people_of_genre_has_oppo = people_of_genre & people_has_oppo
+
+	if len(people_of_genre_has_oppo) < 1:
+		return None
+
+	first_people = rand.sample(people_of_genre_has_oppo, 1)[0]
+	second_people_cand_list = oppo_map[first_people]
+	second_people = rand.sample(second_people_cand_list, 1)[0]
+
 def find_people(genre):
+	global all_genre, all_names, oppo_map, all_name_set
+	global genre2category, category2genre, people_has_oppo
+	
+	if genre not in all_genre:
+		print 'Warning: there is no such genre as', genre
+		return None
+
+	# best case: direct hit
+	res = try_genre(genre)
+	if res is not None:
+		return res
+
+	# if not, try big category
+	genre_category = genre2category[genre]
+	neighbor_genres = category2genre[genre_category]
+	res = try_genres(neighbor_genres)
+	if res is not None:
+		return res
+
+	# still not? try contrast by genre
+	res = try_genre(genre, 'genre')
+	if res is not None:
+		return res
+
+	# still not? no contrast then
+	res = try_genre(genre, 'None')
+	if res is not None:
+		return res
+
+	# still not? no contrast in big category
+	res = try_genres(neighbor_genres)
+	if res is not None:
+		return res
+
+	# finally, pure random
+	res_list = rand.sample(all_name_set, 2)
+	return (res_list[0], res_list[1])
+
+
+def find_people_v1(genre):
 	global all_genre, all_names, oppo_map, all_name_set
 	global genre2category, category2genre, people_has_oppo
 	
@@ -114,4 +212,12 @@ def find_people(genre):
 			second_people = rand.sample(second_people_cand_list, 1)[0]
 			return first_people, second_people
 	return first_people, second_people
+
+def test():
+	for category in category2genre:
+		for genre in category2genre[category]:
+			print 'will test %s in %s' % (genre, category) 
+			for i in range(5):
+				print find_people(genre)
+
 
