@@ -144,6 +144,7 @@ def find_people(genre):
 	if len(people_of_genre) < 2:
 		first_people = rand.sample(people_of_genre, 1)[0]
 		second_people = rand.sample(all_name_set, 1)[0]
+		return first_people, second_people
 	else:
 		# people in genre with opponents
 		people_of_genre_has_oppo = people_of_genre & people_has_oppo
@@ -163,6 +164,11 @@ def find_people(genre):
 					print 'Warning: no people in genre %s has opponent, trying to find a people from opposite genre category of %s' % (genre, genre_category)
 					(first_people, second_people) = rand.sample(people_of_genre, 2)
 					return (first_people, second_people)
+				else:
+					first_people = rand.sample(people_of_genre_has_oppo, 1)[0]
+					second_people_cand_list = set(oppo_map[first_people])
+					# print 'did get 2nd people candidates', str(second_people_cand_list)
+					second_people = rand.sample(second_people_cand_list, 1)[0]
 		else:
 			first_people = rand.sample(people_of_genre_has_oppo, 1)[0]
 			second_people_cand_list = set(oppo_map[first_people])
