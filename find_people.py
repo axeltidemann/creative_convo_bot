@@ -28,7 +28,7 @@ def guofu_load_data():
 	all_genre = cp.load(f)
 	f.close()
 
-	f = open('oppo_map_inkb.pk', 'r')
+	f = open('oppo_map_INKB.pk', 'r')
 	oppo_map = cp.load(f)
 	f.close()
 
