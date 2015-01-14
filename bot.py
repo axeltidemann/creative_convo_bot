@@ -42,7 +42,7 @@ if __name__ == '__main__':
                     ('2978463185-sxEmSJblYUt9hD1lLzVtei4XnBN7btE1AlEYJ5P',
                      'fIE7sHt3VMLtptMEChJFCWFzY2zxqMv6qLDGdtPGyHf0a'))
     publish(bot1_pattern, first_tweet)
-
+    
     bot2_pattern = ('A77WTgalcwA8hfDhD6AqWOOaZ',
                     'C8nTcxf5SJHla2KVqwVTiiflpFyMmLpuEUES62ewp3EcsIErfq',
                     ('2978543729-GYVjPcoIMUbIqMK9tutLmIuX0gTDwRDHawpiAqc',
