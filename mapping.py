@@ -3,10 +3,12 @@ import random
 from hashtags import popular_hashtags
 
 def mapping():
-
-	D = popular_hashtags()
-
+        D = popular_hashtags()
 	trending_category = str(random.choice(D.keys()))
+
+        while trending_category == 'Astrology':
+                trending_category = str(random.choice(D.keys()))
+
 	hashtag = str(random.choice(D[trending_category]))
 
 	entertainment = ['movies','television','music','theatre','art','singing','cartoons','comedy','comics','magic','pornography','science fiction','stunts','video games','radio']
@@ -21,11 +23,7 @@ def mapping():
 
 	education = ['philosophy','literature']
 
-	if trending_category == 'Astrology':
-		trending_category = random.choice(D.keys())
-		hastag = random.choice(D[trending_category])
-
-	elif trending_category == 'Entertainment':
+	if trending_category == 'TV/Entertainment':
 		genre = str(random.choice(entertainment))
 	
 	elif trending_category == 'Social Change':
@@ -40,7 +38,7 @@ def mapping():
 	elif trending_category == 'Tech':
 		genre = str(random.choice(tech))
 
-	elif tending_category == 'Education':
+	elif trending_category == 'Education':
 		genre = str(random.choice(education))		
 	
 	return (genre,hashtag)
