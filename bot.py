@@ -27,7 +27,7 @@ def publish(auth_keys, tweet):
     
 
 if __name__ == '__main__':
-    genre, hashtag, opposite_genre = mapping()
+    genre, hashtag, opposite_genre = mapping() # Maybe should be genre, opposite_genre, hashtag?
     first_name, second_name = find_people(genre)
     KB = KnowledgeBase()
     topic = Topic(hashtag, None, None, None)
