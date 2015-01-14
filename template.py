@@ -28,10 +28,10 @@ class KnowledgeBase:
         return self._to_person(random.choice(self.KB))
 
 def first_template(topic, me, other):
-    return '{}: {} {} What do you think, @{}?'.format(me.Character, topic.hashtag, creative_tweet(topic, me, 1), other.Character)
+    return "{}: {} {} What do you think, {} (@convo_bot_2)?'".format(me.Character, topic.hashtag, creative_tweet(topic, me, 1), other.Character)
 
 def second_template(topic, me, other):
-    return '{}: @{} {} {}'.format(me.Character, other.Character, topic.hashtag, creative_tweet(topic, me, -1))
+    return '{}: {} (@convo_bot_1) {} {}'.format(me.Character, other.Character, topic.hashtag, creative_tweet(topic, me, -1))
 
 def creative_tweet(topic, person, sentiment):
     if sentiment < 0:
