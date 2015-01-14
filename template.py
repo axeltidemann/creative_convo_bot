@@ -3,8 +3,6 @@
 from collections import namedtuple
 import random
 
-import numpy as np
-
 from cc_pattern import noc
 
 Topic = namedtuple('Topic', ['hashtag', 'who', 'what', 'where'])
@@ -29,8 +27,14 @@ class KnowledgeBase:
     def random(self):
         return self._to_person(random.choice(self.KB))
 
+def first_template(topic, me, other):
+    return '{}: {} What do you think, @{}?'.format(me.Character, template(create_tweet(topic, me, 1)), other.Character)
+
+def second_template(topic, me, other):
+    return '{}: @{} {}'.format(me.Character, other.Character, template(create_tweet(topic, me, -1)))
+
 def template(tweet_skeleton):
-    return '{}: {} {}'.format(tweet_skeleton.person.Character, tweet_skeleton.topic.hashtag, tweet_skeleton.creative_tweet)
+    return '{} {}'.format(tweet_skeleton.topic.hashtag, tweet_skeleton.creative_tweet)
 
 def create_tweet(topic, person, sentiment):
     if sentiment < 0:
@@ -44,5 +48,9 @@ def create_tweet(topic, person, sentiment):
 if __name__ == '__main__':
     KB = KnowledgeBase()
     topic = Topic('#goldenglobe', None, None, None)
-    print template(create_tweet(topic, KB.random, np.random.randint(-1,1)))
+    first = KB.random
+    second = KB.random
+    print first_template(topic, first, second)
+    print
+    print second_template(topic, second, first)
 
