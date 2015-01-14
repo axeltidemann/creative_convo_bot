@@ -1,31 +1,48 @@
 import random
 
-def mapping(trending_category):
+from hashtags import popular_hashtags
+
+def mapping():
+
+	D = popular_hashtags()
+
+	trending_category = str(random.choice(D.keys()))
+	hastag = str(random.choice(D[trending_category]))
 
 	entertainment = ['movies','television','music','theatre','art','singing','cartoons','comedy','comics','magic','pornography','science fiction','stunts','video games','radio']
 
-	social_change = ['politics','economics','business','finance','law','history']
+	social_change = ['politics','law','crime','espionage']
+	
+	general = ['history','exploration','tragedy','medicine']
+	
+	business = ['economics','business','finance']
 
-	tech = ['technology', 'aeronautics','exploration']
+	tech = ['technology', 'aeronautics']
 
-	criminal = ['crime','espionage','tragedy']
+	education = ['philosophy','literature']
 
-	education = ['philosophy','medicine','literature']
+	if trending_category == 'Astrology':
+		trending_category = random.choice(D.keys())
+		hastag = random.choice(D[trending_category])
 
-
-	if trending_category == 'entertainment':
+	elif trending_category == 'Entertainment':
 		genre = str(random.choice(entertainment))
 	
-	elif trending_category == 'social change':
+	elif trending_category == 'Social Change':
 		genre = str(random.choice(social_change))
+		
+	elif trending_category == 'General':
+		genre = str(random.choice(general))
+	
+	elif trending_category == 'Business':
+		genre = str(random.choice(business))
 
-	elif trending_category == 'tech':
+	elif trending_category == 'Tech':
 		genre = str(random.choice(tech))
 
-	elif trending_category == 'criminal':
-		genre = str(random.choice(criminal))
-
-	elif tending_category == 'education':
+	elif tending_category == 'Education':
 		genre = str(random.choice(education))
 	
-	return genre
+		
+	
+	return genre,hashtag
