@@ -7,7 +7,7 @@ def mapping():
 	D = popular_hashtags()
 
 	trending_category = str(random.choice(D.keys()))
-	hastag = str(random.choice(D[trending_category]))
+	hashtag = str(random.choice(D[trending_category]))
 
 	entertainment = ['movies','television','music','theatre','art','singing','cartoons','comedy','comics','magic','pornography','science fiction','stunts','video games','radio']
 
@@ -41,8 +41,10 @@ def mapping():
 		genre = str(random.choice(tech))
 
 	elif tending_category == 'Education':
-		genre = str(random.choice(education))
+		genre = str(random.choice(education))		
 	
-		
-	
-	return genre,hashtag
+	return (genre,hashtag)
+
+
+if __name__ == "__main__":
+    mapping()
