@@ -1,0 +1,2283 @@
+(dp0
+S'Sam Winchester'
+p1
+c__builtin__
+set
+p2
+((lp3
+S'Lucifer'
+p4
+atp5
+Rp6
+sS'George McFly'
+p7
+g2
+((lp8
+S'Biff Tannen'
+p9
+atp10
+Rp11
+sS'Agent Phil Coulson'
+p12
+g2
+((lp13
+S'Loki Laufeyson'
+p14
+atp15
+Rp16
+sS'Rainier Luftwaffe Wolfcastle'
+p17
+g2
+((lp18
+S'Troy McClure'
+p19
+aS'Kent Brockman'
+p20
+atp21
+Rp22
+sS'Tim Burton'
+p23
+g2
+((lp24
+S'Kevin Smith'
+p25
+atp26
+Rp27
+sS'Adam West'
+p28
+g2
+((lp29
+S'The Joker'
+p30
+atp31
+Rp32
+sS'Professor James Moriarty'
+p33
+g2
+((lp34
+S'Dr. John Watson'
+p35
+aS'Sherlock Holmes'
+p36
+atp37
+Rp38
+sS'Alan Sugar'
+p39
+g2
+((lp40
+S'Piers Morgan'
+p41
+atp42
+Rp43
+sS'Daffy Duck'
+p44
+g2
+((lp45
+S'Bugs Bunny'
+p46
+aS'Donald Duck'
+p47
+atp48
+Rp49
+sS'Mahatma Gandhi'
+p50
+g2
+((lp51
+S'Winston Churchill'
+p52
+atp53
+Rp54
+sS'Darth Maul'
+p55
+g2
+((lp56
+S'Jar Jar Binks'
+p57
+aS'Obi-wan Kenobi'
+p58
+atp59
+Rp60
+sS'Sir Hugo Drax'
+p61
+g2
+((lp62
+S'James Bond'
+p63
+atp64
+Rp65
+sS'Dr. Evil'
+p66
+g2
+((lp67
+S'Austin Powers'
+p68
+atp69
+Rp70
+sS'Nelson Muntz'
+p71
+g2
+((lp72
+S'Bart Simpson'
+p73
+atp74
+Rp75
+sS'Elvis Presley'
+p76
+g2
+((lp77
+S'Jerry Lee Lewis'
+p78
+atp79
+Rp80
+sS'Uriah Heap'
+p81
+g2
+((lp82
+S'Wilkins Micawber'
+p83
+atp84
+Rp85
+sS'Trinity'
+p86
+g2
+((lp87
+S'Agent Smith'
+p88
+atp89
+Rp90
+sS'John Constantine'
+p91
+g2
+((lp92
+S'Lucifer'
+p93
+atp94
+Rp95
+sS'Harvey Dent'
+p96
+g2
+((lp97
+S'Batman'
+p98
+aS'Commissioner James Gordon'
+p99
+atp100
+Rp101
+sS'Muhammad Ali'
+p102
+g2
+((lp103
+S'George Foreman'
+p104
+atp105
+Rp106
+sS'Sylvester the Cat'
+p107
+g2
+((lp108
+S'Tweety Pie'
+p109
+atp110
+Rp111
+sS'Arthur Conan Doyle'
+p112
+g2
+((lp113
+S'Harry Houdini'
+p114
+atp115
+Rp116
+sS'Dr. Henry Jekyll'
+p117
+g2
+((lp118
+S'Mr. Edward Hyde'
+p119
+atp120
+Rp121
+sS'Clark Kent'
+p122
+g2
+((lp123
+S'Lex Luthor'
+p124
+atp125
+Rp126
+sS'Freddy Krueger'
+p127
+g2
+((lp128
+S'Jason Voorhees'
+p129
+atp130
+Rp131
+sS'Deepak Chopra'
+p132
+g2
+((lp133
+S'Tony Robbins'
+p134
+atp135
+Rp136
+sS'Lou Reed'
+p137
+g2
+((lp138
+S'Frank Zappa'
+p139
+atp140
+Rp141
+sS'Boris Johnson'
+p142
+g2
+((lp143
+S'Jeremy Paxman'
+p144
+atp145
+Rp146
+sS'Eminem'
+p147
+g2
+((lp148
+S'Mariah Carey'
+p149
+atp150
+Rp151
+sS'Judge Judy Sheindlin'
+p152
+g2
+((lp153
+S'Oprah Winfrey'
+p154
+atp155
+Rp156
+sS'Glenn Beck'
+p157
+g2
+((lp158
+S'George Soros'
+p159
+atp160
+Rp161
+sS'Edna Krabappel'
+p162
+g2
+((lp163
+S'Bart Simpson'
+p164
+atp165
+Rp166
+sS'Orson Welles'
+p167
+g2
+((lp168
+S'William Randolph Hearst'
+p169
+aS'Charles Foster Kane'
+p170
+atp171
+Rp172
+sS'Captain William Bligh'
+p173
+g2
+((lp174
+S'Fletcher Christian'
+p175
+atp176
+Rp177
+sg83
+g2
+((lp178
+g81
+atp179
+Rp180
+sS'Gustavo Fring'
+p181
+g2
+((lp182
+S'Walter White'
+p183
+aS'Jesse Pinkman'
+p184
+atp185
+Rp186
+sS'Blanche DuBois'
+p187
+g2
+((lp188
+S'Stanley Kowalski'
+p189
+atp190
+Rp191
+sS'Mickey Rourke'
+p192
+g2
+((lp193
+S'Sean Penn'
+p194
+atp195
+Rp196
+sg47
+g2
+((lp197
+S'Mickey Mouse'
+p198
+ag44
+atp199
+Rp200
+sS'Ebenezer Scrooge'
+p201
+g2
+((lp202
+S'Bob Cratchit'
+p203
+atp204
+Rp205
+sS'Rick Deckard'
+p206
+g2
+((lp207
+S'Roy Batty'
+p208
+atp209
+Rp210
+sS'Madonna'
+p211
+g2
+((lp212
+S'Elton John'
+p213
+atp214
+Rp215
+sS'Stephen Jay Gould'
+p216
+g2
+((lp217
+S'Richard Dawkins'
+p218
+atp219
+Rp220
+sS'John Dillinger'
+p221
+g2
+((lp222
+S'J. Edgar Hoover'
+p223
+atp224
+Rp225
+sS'Barack Obama'
+p226
+g2
+((lp227
+S'John McCain'
+p228
+aS'Hillary Clinton'
+p229
+aS'Osama Bin Laden'
+p230
+atp231
+Rp232
+sS'Ray Kroc'
+p233
+g2
+((lp234
+S'Colonel Sanders'
+p235
+atp236
+Rp237
+sS'Monica Lewinsky'
+p238
+g2
+((lp239
+g229
+atp240
+Rp241
+sg57
+g2
+((lp242
+g55
+atp243
+Rp244
+sS'Jamie Oliver'
+p245
+g2
+((lp246
+S'Gordon Ramsay'
+p247
+atp248
+Rp249
+sS'Newt Gingrich'
+p250
+g2
+((lp251
+S'Bill Clinton'
+p252
+atp253
+Rp254
+sS'Keyser S_ze'
+p255
+g2
+((lp256
+S'Jack Bauer'
+p257
+atp258
+Rp259
+sS'Lisa Simpson'
+p260
+g2
+((lp261
+S'Bart Simpson'
+p262
+atp263
+Rp264
+sg169
+g2
+((lp265
+S'Orson Welles'
+p266
+atp267
+Rp268
+sS'Martin Luther King'
+p269
+g2
+((lp270
+S'Malcolm X'
+p271
+ag223
+atp272
+Rp273
+sS'Fidel Castro'
+p274
+g2
+((lp275
+S'John F. Kennedy'
+p276
+aS'Che Guevara'
+p277
+atp278
+Rp279
+sS'Auric Goldfinger'
+p280
+g2
+((lp281
+S'James Bond'
+p282
+atp283
+Rp284
+sS'Dan Brown'
+p285
+g2
+((lp286
+S'John Grisham'
+p287
+atp288
+Rp289
+sS'Kim Kardashian'
+p290
+g2
+((lp291
+S'Beyonc\xa8\xa6'
+p292
+aS'Paris Hilton'
+p293
+atp294
+Rp295
+sS'Stephen Colbert'
+p296
+g2
+((lp297
+S'Jon Stewart'
+p298
+atp299
+Rp300
+sg25
+g2
+((lp301
+S'Bruce Willis'
+p302
+ag23
+atp303
+Rp304
+sS'Samwise Gamgee'
+p305
+g2
+((lp306
+S'Sauron'
+p307
+atp308
+Rp309
+sS'Marcel Duchamp'
+p310
+g2
+((lp311
+S'Pablo Picasso'
+p312
+atp313
+Rp314
+sS'Han Solo'
+p315
+g2
+((lp316
+S'Boba Fett'
+p317
+aS'Jabba the Hutt'
+p318
+atp319
+Rp320
+sS'Darth Vader'
+p321
+g2
+((lp322
+S'Luke Skywalker'
+p323
+aS'Obi-wan Kenobi'
+p324
+aS'Princess Leia Organa'
+p325
+aS'Yoda'
+p326
+atp327
+Rp328
+sS'Jenna Maroney'
+p329
+g2
+((lp330
+S'Tracy Jordan'
+p331
+atp332
+Rp333
+sS'Nicolas Cage'
+p334
+g2
+((lp335
+S'Sean Penn'
+p336
+atp337
+Rp338
+sS'Thor Odinson'
+p339
+g2
+((lp340
+S'Loki Laufeyson'
+p341
+atp342
+Rp343
+sS'Harry Potter'
+p344
+g2
+((lp345
+S'Lord Voldemort'
+p346
+atp347
+Rp348
+sS'Vladimir Putin'
+p349
+g2
+((lp350
+S'Garry Kasparov'
+p351
+atp352
+Rp353
+sg351
+g2
+((lp354
+g349
+atp355
+Rp356
+sS'Severus Snape'
+p357
+g2
+((lp358
+S'Lord Voldemort'
+p359
+atp360
+Rp361
+sg317
+g2
+((lp362
+S'Luke Skywalker'
+p363
+ag315
+atp364
+Rp365
+sS'The Joker'
+p366
+g2
+((lp367
+S'Bruce Wayne'
+p368
+aS'Batman'
+p369
+ag99
+ag28
+atp370
+Rp371
+sS'Ayn Rand'
+p372
+g2
+((lp373
+S'Karl Marx'
+p374
+atp375
+Rp376
+sS'David Lee Roth'
+p377
+g2
+((lp378
+S'Eddie Van Halen'
+p379
+atp380
+Rp381
+sg63
+g2
+((lp382
+g61
+aS'Le Chiffre'
+p383
+ag280
+aS'Dr. Julius No'
+p384
+aS'Ernst Stavro Blofeld'
+p385
+atp386
+Rp387
+sS'Tim Berners-Lee'
+p388
+g2
+((lp389
+S'Al Gore'
+p390
+atp391
+Rp392
+sS'Frodo Baggins'
+p393
+g2
+((lp394
+S'Sauron'
+p395
+atp396
+Rp397
+sg4
+g2
+((lp398
+g1
+aS'Dean Winchester'
+p399
+ag91
+aS'Jesus Christ'
+p400
+atp401
+Rp402
+sS'Hans Gruber'
+p403
+g2
+((lp404
+S'John McClane'
+p405
+atp406
+Rp407
+sS'Nicolas Sarkozy'
+p408
+g2
+((lp409
+S'Dominique Strauss-Kahn'
+p410
+atp411
+Rp412
+sg235
+g2
+((lp413
+S'Ronald McDonald'
+p414
+ag233
+atp415
+Rp416
+sg99
+g2
+((lp417
+S'The Joker'
+p418
+aS'Harvey Dent'
+p419
+atp420
+Rp421
+sS'Henry Kissinger'
+p422
+g2
+((lp423
+S'Christopher Hitchens'
+p424
+atp425
+Rp426
+sg230
+g2
+((lp427
+S'George W. Bush'
+p428
+aS'Barack Obama'
+p429
+atp430
+Rp431
+sS'General Zod'
+p432
+g2
+((lp433
+S'Kal El'
+p434
+aS'Jor El'
+p435
+atp436
+Rp437
+sS'Arnold Schwarzenegger'
+p438
+g2
+((lp439
+S'Sylvester Stallone'
+p440
+atp441
+Rp442
+sg223
+g2
+((lp443
+S'Charlie Chaplin'
+p444
+ag221
+ag269
+atp445
+Rp446
+sS'Sideshow Bob'
+p447
+g2
+((lp448
+S'Bart Simpson'
+p449
+aS'Mayor Joe Quimby'
+p450
+aS'Krusty the Clown'
+p451
+atp452
+Rp453
+sS'Sarah Palin'
+p454
+g2
+((lp455
+S'Joe Biden'
+p456
+atp457
+Rp458
+sg440
+g2
+((lp459
+S'Bruce Willis'
+p460
+ag438
+aS'Robert De Niro'
+p461
+atp462
+Rp463
+sS'Elizabeth Taylor'
+p464
+g2
+((lp465
+S'Marilyn Monroe'
+p466
+aS'Elizabeth Taylor'
+p467
+atp468
+Rp469
+sS'Clarice Starling'
+p470
+g2
+((lp471
+S'Hannibal Lecter'
+p472
+atp473
+Rp474
+sg36
+g2
+((lp475
+g33
+atp476
+Rp477
+sS'Raymond Chandler'
+p478
+g2
+((lp479
+S'Alfred Hitchcock'
+p480
+atp481
+Rp482
+sg124
+g2
+((lp483
+S'Kal El'
+p484
+ag122
+atp485
+Rp486
+sS'Luis Suarez'
+p487
+g2
+((lp488
+S'Wayne Rooney'
+p489
+atp490
+Rp491
+sg312
+g2
+((lp492
+g310
+atp493
+Rp494
+sg129
+g2
+((lp495
+g127
+atp496
+Rp497
+sS'Brian Griffin'
+p498
+g2
+((lp499
+S'Stewie Griffin'
+p500
+aS'Glenn Quagmire'
+p501
+atp502
+Rp503
+sg318
+g2
+((lp504
+S'Han Solo'
+p505
+atp506
+Rp507
+sS'George Bernard Shaw'
+p508
+g2
+((lp509
+S'Winston Churchill'
+p510
+atp511
+Rp512
+sS'Abraham Lincoln'
+p513
+g2
+((lp514
+S'John Wilkes Booth'
+p515
+atp516
+Rp517
+sg379
+g2
+((lp518
+g377
+atp519
+Rp520
+sg247
+g2
+((lp521
+S'Marco Pierre White'
+p522
+ag245
+atp523
+Rp524
+sg480
+g2
+((lp525
+g478
+atp526
+Rp527
+sS'Jerry Springer'
+p528
+g2
+((lp529
+S'Jerry Springer'
+p530
+atp531
+Rp532
+sS'Richard Nixon'
+p533
+g2
+((lp534
+S'John F. Kennedy'
+p535
+atp536
+Rp537
+sg435
+g2
+((lp538
+g432
+atp539
+Rp540
+sS'Winston Churchill'
+p541
+g2
+((lp542
+g50
+aS'Adolf Hitler'
+p543
+aS'Joseph Goebbels'
+p544
+aS'Neville Chamberlain'
+p545
+ag508
+atp546
+Rp547
+sg368
+g2
+((lp548
+S'The Joker'
+p549
+atp550
+Rp551
+sS'Greta Garbo'
+p552
+g2
+((lp553
+S'Marlene Dietrich'
+p554
+atp555
+Rp556
+sS'Elmer Fudd'
+p557
+g2
+((lp558
+g46
+atp559
+Rp560
+sS'Ming The Merciless'
+p561
+g2
+((lp562
+S'Flash Gordon'
+p563
+atp564
+Rp565
+sg545
+g2
+((lp566
+g541
+atp567
+Rp568
+sS'Saruman the White'
+p569
+g2
+((lp570
+S'Gandalf the Grey'
+p571
+atp572
+Rp573
+sg203
+g2
+((lp574
+g201
+atp575
+Rp576
+sg451
+g2
+((lp577
+S'Sideshow Bob'
+p578
+atp579
+Rp580
+sS'Mark Zuckerberg'
+p581
+g2
+((lp582
+S'Larry Page'
+p583
+aS'Sergey Brin'
+p584
+atp585
+Rp586
+sS'Chief Clarence Wiggum'
+p587
+g2
+((lp588
+S'Mayor Joe Quimby'
+p589
+atp590
+Rp591
+sS'Fredo Corleone'
+p592
+g2
+((lp593
+S'Michael Corleone'
+p594
+atp595
+Rp596
+sg522
+g2
+((lp597
+S'Gordon Ramsay'
+p598
+atp599
+Rp600
+sS'Piers Morgan'
+p601
+g2
+((lp602
+S'Russell Brand'
+p603
+aS'Larry King'
+p604
+ag39
+aS'Jeremy Clarkson'
+p605
+aS'Jeremy Paxman'
+p606
+atp607
+Rp608
+sS'Marlon Brando'
+p609
+g2
+((lp610
+S'Lee Marvin'
+p611
+atp612
+Rp613
+sg257
+g2
+((lp614
+g255
+atp615
+Rp616
+sS'Marty McFly'
+p617
+g2
+((lp618
+S'Biff Tannen'
+p619
+atp620
+Rp621
+sS'Al Capone'
+p622
+g2
+((lp623
+S'Eliot Ness'
+p624
+atp625
+Rp626
+sS'Antonio Salieri'
+p627
+g2
+((lp628
+S'Wolfgang Amadeus Mozart'
+p629
+atp630
+Rp631
+sg629
+g2
+((lp632
+g627
+atp633
+Rp634
+sS'Gore Vidal'
+p635
+g2
+((lp636
+S'Truman Capote'
+p637
+atp638
+Rp639
+sS'Steve Ballmer'
+p640
+g2
+((lp641
+S'Steve Jobs'
+p642
+atp643
+Rp644
+sS'Mick Jagger'
+p645
+g2
+((lp646
+S'David Bowie'
+p647
+atp648
+Rp649
+sg302
+g2
+((lp650
+g25
+aS'Sylvester Stallone'
+p651
+atp652
+Rp653
+sS'Lee Harvey Oswald'
+p654
+g2
+((lp655
+g276
+atp656
+Rp657
+sg114
+g2
+((lp658
+g112
+atp659
+Rp660
+sS'Rush Limbaugh'
+p661
+g2
+((lp662
+S'Howard Stern'
+p663
+atp664
+Rp665
+sS'Kim Jong-Il'
+p666
+g2
+((lp667
+S'Bill Clinton'
+p668
+aS'George W. Bush'
+p669
+atp670
+Rp671
+sg183
+g2
+((lp672
+g181
+atp673
+Rp674
+sg331
+g2
+((lp675
+g329
+atp676
+Rp677
+sS'The HamBurglar'
+p678
+g2
+((lp679
+S'Ronald McDonald'
+p680
+atp681
+Rp682
+sS'Homer Simpson'
+p683
+g2
+((lp684
+S'Peter Griffin'
+p685
+aS'Ned Flanders'
+p686
+aS'Selma Bouvier'
+p687
+atp688
+Rp689
+sS'Leonardo DiCaprio'
+p690
+g2
+((lp691
+S'Christian Bale'
+p692
+aS'Justin Bieber'
+p693
+atp694
+Rp695
+sg134
+g2
+((lp696
+g132
+atp697
+Rp698
+sS'Benito Mussolini'
+p699
+g2
+((lp700
+S'Adolf Hitler'
+p701
+atp702
+Rp703
+sg515
+g2
+((lp704
+g513
+atp705
+Rp706
+sg686
+g2
+((lp707
+g683
+atp708
+Rp709
+sg298
+g2
+((lp710
+g296
+atp711
+Rp712
+sS'Leonardo Da Vinci'
+p713
+g2
+((lp714
+S'Michelangelo'
+p715
+atp716
+Rp717
+sS'Thomas Edison'
+p718
+g2
+((lp719
+S'Nikola Tesla'
+p720
+atp721
+Rp722
+sS'Hellboy'
+p723
+g2
+((lp724
+S'Grigori Rasputin'
+p725
+atp726
+Rp727
+sg170
+g2
+((lp728
+g167
+atp729
+Rp730
+sg589
+g2
+((lp731
+g447
+ag587
+atp732
+Rp733
+sS'Squidward Tentacles'
+p734
+g2
+((lp735
+S'Spongebob Squarepants'
+p736
+atp737
+Rp738
+sg736
+g2
+((lp739
+g734
+atp740
+Rp741
+sS'Michael Bay'
+p742
+g2
+((lp743
+S'Megan Fox'
+p744
+atp745
+Rp746
+sS'Justin Timberlake'
+p747
+g2
+((lp748
+S'Justin Bieber'
+p749
+aS'Kanye West'
+p750
+atp751
+Rp752
+sg287
+g2
+((lp753
+g285
+atp754
+Rp755
+sS'George Washington'
+p756
+g2
+((lp757
+S'Benedict Arnold'
+p758
+atp759
+Rp760
+sS'Obi-wan Kenobi'
+p761
+g2
+((lp762
+S'Darth Maul'
+p763
+aS'Emperor Palpatine'
+p764
+ag321
+atp765
+Rp766
+sg399
+g2
+((lp767
+S'Lucifer'
+p768
+atp769
+Rp770
+sg175
+g2
+((lp771
+g173
+atp772
+Rp773
+sS'Michael Moore'
+p774
+g2
+((lp775
+S'Ann Coulter'
+p776
+atp777
+Rp778
+sS'Karl Rove'
+p779
+g2
+((lp780
+S'Hillary Clinton'
+p781
+atp782
+Rp783
+sS'Principal Seymour Skinner'
+p784
+g2
+((lp785
+g73
+aS'Groundskeeper Willie MacDougal'
+p786
+atp787
+Rp788
+sS'Salman Rushdie'
+p789
+g2
+((lp790
+S'Ayatollah Khomeini'
+p791
+atp792
+Rp793
+sg791
+g2
+((lp794
+S'Saddam Hussein'
+p795
+ag789
+atp796
+Rp797
+sg19
+g2
+((lp798
+S'Rainier Luftwaffe Wolfcastle'
+p799
+atp800
+Rp801
+sg758
+g2
+((lp802
+g756
+atp803
+Rp804
+sg159
+g2
+((lp805
+g157
+atp806
+Rp807
+sg456
+g2
+((lp808
+g454
+atp809
+Rp810
+sS'Adam Smith'
+p811
+g2
+((lp812
+S'Karl Marx'
+p813
+atp814
+Rp815
+sS'Martha Stewart'
+p816
+g2
+((lp817
+S'Gwyneth Paltrow'
+p818
+atp819
+Rp820
+sS'Stan Lee'
+p821
+g2
+((lp822
+S'Jeff "Comic Book Guy" Albertson'
+p823
+atp824
+Rp825
+sS'Condoleezza Rice'
+p826
+g2
+((lp827
+S'Donald Rumsfeld'
+p828
+atp829
+Rp830
+sS'Larry Flynt'
+p831
+g2
+((lp832
+S'Hugh Hefner'
+p833
+atp834
+Rp835
+sS'Lindsay Lohan'
+p836
+g2
+((lp837
+S'Paris Hilton'
+p838
+atp839
+Rp840
+sg687
+g2
+((lp841
+S'Homer Simpson'
+p842
+atp843
+Rp844
+sg605
+g2
+((lp845
+g601
+atp846
+Rp847
+sS'Polonius'
+p848
+g2
+((lp849
+S'Hamlet'
+p850
+atp851
+Rp852
+sS'Yosemite Sam'
+p853
+g2
+((lp854
+g46
+atp855
+Rp856
+sS'Thomas "Neo" Anderson'
+p857
+g2
+((lp858
+S'Agent Smith'
+p859
+atp860
+Rp861
+sg501
+g2
+((lp862
+S'Brian Griffin'
+p863
+atp864
+Rp865
+sg584
+g2
+((lp866
+S'Mark Zuckerberg'
+p867
+atp868
+Rp869
+sg583
+g2
+((lp870
+g581
+atp871
+Rp872
+sg104
+g2
+((lp873
+g102
+atp874
+Rp875
+sg252
+g2
+((lp876
+g666
+ag250
+atp877
+Rp878
+sg680
+g2
+((lp879
+S'Colonel Sanders'
+p880
+ag678
+atp881
+Rp882
+sg833
+g2
+((lp883
+g831
+atp884
+Rp885
+sg383
+g2
+((lp886
+g282
+atp887
+Rp888
+sg611
+g2
+((lp889
+g609
+atp890
+Rp891
+sS'John Lennon'
+p892
+g2
+((lp893
+S'Keith Moon'
+p894
+atp895
+Rp896
+sg823
+g2
+((lp897
+g821
+atp898
+Rp899
+sg813
+g2
+((lp900
+g372
+ag811
+atp901
+Rp902
+sS'Linus Torvalds'
+p903
+g2
+((lp904
+S'Steve Jobs'
+p905
+atp906
+Rp907
+sg164
+g2
+((lp908
+S'Principal Seymour Skinner'
+p909
+aS'Sideshow Bob'
+p910
+ag260
+ag162
+ag71
+atp911
+Rp912
+sS'Joseph Stalin'
+p913
+g2
+((lp914
+S'Leon Trotsky'
+p915
+atp916
+Rp917
+sg444
+g2
+((lp918
+S'J. Edgar Hoover'
+p919
+atp920
+Rp921
+sS'Frank Sinatra'
+p922
+g2
+((lp923
+S'Bing Crosby'
+p924
+atp925
+Rp926
+sg144
+g2
+((lp927
+S'Russell Brand'
+p928
+aS'Piers Morgan'
+p929
+ag142
+atp930
+Rp931
+sS'Porky Pig'
+p932
+g2
+((lp933
+g46
+atp934
+Rp935
+sg189
+g2
+((lp936
+g187
+atp937
+Rp938
+sS'Morpheus'
+p939
+g2
+((lp940
+S'Agent Smith'
+p941
+atp942
+Rp943
+sg149
+g2
+((lp944
+g147
+atp945
+Rp946
+sg750
+g2
+((lp947
+S'Justin Timberlake'
+p948
+atp949
+Rp950
+sg271
+g2
+((lp951
+S'Martin Luther King'
+p952
+atp953
+Rp954
+sS'Gandalf the Grey'
+p955
+g2
+((lp956
+g395
+ag569
+atp957
+Rp958
+sg500
+g2
+((lp959
+g498
+atp960
+Rp961
+sS'Nick Fury'
+p962
+g2
+((lp963
+S'Loki Laufeyson'
+p964
+atp965
+Rp966
+sg647
+g2
+((lp967
+g645
+atp968
+Rp969
+sS'Jay Leno'
+p970
+g2
+((lp971
+S'David Letterman'
+p972
+atp973
+Rp974
+sg229
+g2
+((lp975
+g226
+ag779
+ag238
+aS'Michelle Obama'
+p976
+atp977
+Rp978
+sg218
+g2
+((lp979
+g216
+atp980
+Rp981
+sg850
+g2
+((lp982
+g848
+atp983
+Rp984
+sg637
+g2
+((lp985
+g635
+atp986
+Rp987
+sg428
+g2
+((lp988
+S'Saddam Hussein'
+p989
+aS'Al Gore'
+p990
+ag666
+ag230
+atp991
+Rp992
+sg198
+g2
+((lp993
+g47
+atp994
+Rp995
+sg472
+g2
+((lp996
+g470
+atp997
+Rp998
+sg744
+g2
+((lp999
+g742
+atp1000
+Rp1001
+sS'Jesus Christ'
+p1002
+g2
+((lp1003
+S'Judas Iscariot'
+p1004
+ag768
+atp1005
+Rp1006
+sS'Scott Evil'
+p1007
+g2
+((lp1008
+S'Austin Powers'
+p1009
+atp1010
+Rp1011
+sS'Bill Gates'
+p1012
+g2
+((lp1013
+S'Steve Jobs'
+p1014
+atp1015
+Rp1016
+sg184
+g2
+((lp1017
+g181
+atp1018
+Rp1019
+sg292
+g2
+((lp1020
+g290
+atp1021
+Rp1022
+sS'John Keats'
+p1023
+g2
+((lp1024
+S'Lord Byron'
+p1025
+atp1026
+Rp1027
+sg109
+g2
+((lp1028
+g107
+atp1029
+Rp1030
+sg208
+g2
+((lp1031
+S'Dr. Eldon Tyrell'
+p1032
+ag206
+atp1033
+Rp1034
+sg194
+g2
+((lp1035
+g334
+ag192
+atp1036
+Rp1037
+sg838
+g2
+((lp1038
+g290
+ag836
+atp1039
+Rp1040
+sg390
+g2
+((lp1041
+S'George W. Bush'
+p1042
+ag388
+atp1043
+Rp1044
+sg1004
+g2
+((lp1045
+g1002
+atp1046
+Rp1047
+sg1014
+g2
+((lp1048
+g1012
+ag640
+ag903
+atp1049
+Rp1050
+sg594
+g2
+((lp1051
+g592
+atp1052
+Rp1053
+sg154
+g2
+((lp1054
+g152
+atp1055
+Rp1056
+sS'Mother Teresa'
+p1057
+g2
+((lp1058
+S'Christopher Hitchens'
+p1059
+atp1060
+Rp1061
+sg563
+g2
+((lp1062
+g561
+atp1063
+Rp1064
+sg20
+g2
+((lp1065
+g17
+atp1066
+Rp1067
+sg68
+g2
+((lp1068
+g1007
+ag66
+atp1069
+Rp1070
+sg624
+g2
+((lp1071
+g622
+atp1072
+Rp1073
+sg277
+g2
+((lp1074
+g274
+atp1075
+Rp1076
+sS'Donald Trump'
+p1077
+g2
+((lp1078
+g603
+atp1079
+Rp1080
+sS'Jimmy Cagney'
+p1081
+g2
+((lp1082
+S'Humphrey Bogart'
+p1083
+atp1084
+Rp1085
+sg213
+g2
+((lp1086
+g211
+atp1087
+Rp1088
+sg715
+g2
+((lp1089
+g713
+atp1090
+Rp1091
+sg1025
+g2
+((lp1092
+g1023
+atp1093
+Rp1094
+sg384
+g2
+((lp1095
+g282
+atp1096
+Rp1097
+sg369
+g2
+((lp1098
+S'Bane'
+p1099
+ag366
+ag96
+atp1100
+Rp1101
+sg964
+g2
+((lp1102
+g12
+ag962
+ag339
+atp1103
+Rp1104
+sg776
+g2
+((lp1105
+g774
+atp1106
+Rp1107
+sg976
+g2
+((lp1108
+S'Hillary Clinton'
+p1109
+atp1110
+Rp1111
+sg828
+g2
+((lp1112
+g826
+atp1113
+Rp1114
+sg1099
+g2
+((lp1115
+S'Batman'
+p1116
+atp1117
+Rp1118
+sg972
+g2
+((lp1119
+g970
+atp1120
+Rp1121
+sS'Luke Skywalker'
+p1122
+g2
+((lp1123
+g317
+ag764
+ag321
+atp1124
+Rp1125
+sg749
+g2
+((lp1126
+g747
+aS'Leonardo DiCaprio'
+p1127
+atp1128
+Rp1129
+sg1032
+g2
+((lp1130
+g208
+atp1131
+Rp1132
+sg720
+g2
+((lp1133
+g718
+atp1134
+Rp1135
+sg489
+g2
+((lp1136
+g487
+atp1137
+Rp1138
+sg795
+g2
+((lp1139
+S'George W. Bush'
+p1140
+aS'Ayatollah Khomeini'
+p1141
+atp1142
+Rp1143
+sS'Robert Redford'
+p1144
+g2
+((lp1145
+S'Robert De Niro'
+p1146
+atp1147
+Rp1148
+sg139
+g2
+((lp1149
+g137
+atp1150
+Rp1151
+sg466
+g2
+((lp1152
+S'Elizabeth Taylor'
+p1153
+atp1154
+Rp1155
+sg35
+g2
+((lp1156
+S'Professor James Moriarty'
+p1157
+atp1158
+Rp1159
+sg924
+g2
+((lp1160
+g922
+atp1161
+Rp1162
+sg915
+g2
+((lp1163
+g913
+atp1164
+Rp1165
+sg395
+g2
+((lp1166
+g393
+ag305
+ag955
+atp1167
+Rp1168
+sg535
+g2
+((lp1169
+g533
+ag654
+aS'Fidel Castro'
+p1170
+atp1171
+Rp1172
+sg692
+g2
+((lp1173
+g690
+atp1174
+Rp1175
+sg685
+g2
+((lp1176
+S'Homer Simpson'
+p1177
+atp1178
+Rp1179
+sg410
+g2
+((lp1180
+g408
+atp1181
+Rp1182
+sg434
+g2
+((lp1183
+S'Lex Luthor'
+p1184
+aS'General Zod'
+p1185
+atp1186
+Rp1187
+sg544
+g2
+((lp1188
+S'Winston Churchill'
+p1189
+atp1190
+Rp1191
+sg701
+g2
+((lp1192
+g699
+aS'Winston Churchill'
+p1193
+atp1194
+Rp1195
+sg405
+g2
+((lp1196
+g403
+atp1197
+Rp1198
+sg928
+g2
+((lp1199
+g1077
+aS'Piers Morgan'
+p1200
+ag606
+atp1201
+Rp1202
+sg554
+g2
+((lp1203
+g552
+atp1204
+Rp1205
+sg786
+g2
+((lp1206
+g784
+atp1207
+Rp1208
+sg818
+g2
+((lp1209
+g816
+atp1210
+Rp1211
+sg619
+g2
+((lp1212
+g617
+ag7
+atp1213
+Rp1214
+sg1146
+g2
+((lp1215
+g1144
+aS'Sylvester Stallone'
+p1216
+atp1217
+Rp1218
+sg604
+g2
+((lp1219
+S'Piers Morgan'
+p1220
+atp1221
+Rp1222
+sg663
+g2
+((lp1223
+g661
+atp1224
+Rp1225
+sg78
+g2
+((lp1226
+g76
+atp1227
+Rp1228
+sg325
+g2
+((lp1229
+S'Darth Vader'
+p1230
+atp1231
+Rp1232
+sS'Albus Dumbledore'
+p1233
+g2
+((lp1234
+S'Lord Voldemort'
+p1235
+atp1236
+Rp1237
+sg88
+g2
+((lp1238
+g857
+ag86
+ag939
+atp1239
+Rp1240
+sg1059
+g2
+((lp1241
+g1057
+ag422
+atp1242
+Rp1243
+sg894
+g2
+((lp1244
+g892
+atp1245
+Rp1246
+sS'Yoda'
+p1247
+g2
+((lp1248
+g764
+ag321
+atp1249
+Rp1250
+sg228
+g2
+((lp1251
+S'Barack Obama'
+p1252
+atp1253
+Rp1254
+sg385
+g2
+((lp1255
+g282
+atp1256
+Rp1257
+sg46
+g2
+((lp1258
+g557
+ag932
+ag853
+aS'Daffy Duck'
+p1259
+atp1260
+Rp1261
+sg119
+g2
+((lp1262
+g117
+atp1263
+Rp1264
+sg1083
+g2
+((lp1265
+g1081
+atp1266
+Rp1267
+sg725
+g2
+((lp1268
+g723
+atp1269
+Rp1270
+sg359
+g2
+((lp1271
+g1233
+ag344
+ag357
+atp1272
+Rp1273
+sg764
+g2
+((lp1274
+g1122
+ag761
+ag1247
+atp1275
+Rp1276
+s.
