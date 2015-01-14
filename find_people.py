@@ -12,13 +12,12 @@ category2genre = {
 
 genre2category = {
 	'aeronautics': 'tech', 'video games': 'entertainment', 'art': 'entertainment', 'radio': 'entertainment', 
-	'pornography': 'entertainment', 'politics': 'social_change', 'singing': 'entertainment', 'theatre': 'entertainment', 
-	'science fiction': 'entertainment', 'technology': 'tech', 'crime': 'criminal', 'music': 'entertainment', 
-	'medicine': 'education', 'comedy': 'entertainment', 'espionage': 'criminal', 'literature': 'education', 
-	'finance': 'social_change', 'business': 'social_change', 'philosophy': 'education', 'law': 'social_change', 
-	'tragedy': 'criminal', 'stunts': 'entertainment', 'television': 'entertainment', 'magic': 'entertainment', 
-	'comics': 'entertainment', 'economics': 'social_change', 'movies': 'entertainment', 'exploration': 'tech', 
-	'cartoons': 'entertainment', 'history': 'social_change', 'education' : 'education'
+	'pornography': 'entertainment', 'politics': 'social_change', 'education': 'education', 'singing': 'entertainment', 
+	'theatre': 'entertainment', 'science fiction': 'entertainment', 'technology': 'tech', 'crime': 'social_change', 
+	'music': 'entertainment', 'comedy': 'entertainment', 'espionage': 'social_change', 'literature': 'education', 
+	'finance': 'business', 'business': 'business', 'philosophy': 'education', 'law': 'social_change', 'stunts': 'entertainment', 
+	'television': 'entertainment', 'magic': 'entertainment', 'comics': 'entertainment', 'economics': 'business', 
+	'movies': 'entertainment', 'cartoons': 'entertainment'
 }
 
 genre_category_oppo = {
@@ -129,14 +128,16 @@ def find_people(genre):
 		print 'Warning: there is no such genre as', genre
 		return None
 
-	genre_category = genre2category[genre];
 	people_of_genre = all_genre[genre]
+	#print 'did get people of genre', str(people_of_genre)
+	genre_category = genre2category[genre]
+	#print 'did get genre category', genre_category
 	neighbor_genres = category2genre[genre_category]
 	using_big_category = False
 
 	# if there are two few people in the small genre, then use the big category
 	if len(people_of_genre) < 2:
-		print 'Warning: there is only %d people in genre %s, trying to using the super category' % (len(people_of_genre), genre)
+		print 'Warning: there is only %d people in genre %s, trying to using the super category %s' % (len(people_of_genre), genre, genre_category)
 		people_of_genre = people_in_genres(neighbor_genres)
 		using_big_category = True
 
