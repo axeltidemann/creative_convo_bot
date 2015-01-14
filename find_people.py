@@ -10,15 +10,7 @@ category2genre = {
 	'education' : ['philosophy','literature', 'education'],
 }
 
-genre2category = {
-	'aeronautics': 'tech', 'video games': 'entertainment', 'art': 'entertainment', 'radio': 'entertainment', 
-	'pornography': 'entertainment', 'politics': 'social_change', 'education': 'education', 'singing': 'entertainment', 
-	'theatre': 'entertainment', 'science fiction': 'entertainment', 'technology': 'tech', 'crime': 'social_change', 
-	'music': 'entertainment', 'comedy': 'entertainment', 'espionage': 'social_change', 'literature': 'education', 
-	'finance': 'business', 'business': 'business', 'philosophy': 'education', 'law': 'social_change', 'stunts': 'entertainment', 
-	'television': 'entertainment', 'magic': 'entertainment', 'comics': 'entertainment', 'economics': 'business', 
-	'movies': 'entertainment', 'cartoons': 'entertainment'
-}
+genre2category = {}
 
 genre_category_oppo = {
 	'business' : 'entertainment',
@@ -27,6 +19,7 @@ genre_category_oppo = {
 
 def guofu_load_data():
 	global all_names, all_genre, oppo_map, all_name_set, people_has_oppo
+	global category2genre, genre2category
 	f = open('names.pk', 'r')
 	all_names = cp.load(f)
 	f.close()
@@ -35,73 +28,17 @@ def guofu_load_data():
 	all_genre = cp.load(f)
 	f.close()
 
-	f = open('oppo_map_INKB.pk', 'r')
+	f = open('oppo_map_inkb.pk', 'r')
 	oppo_map = cp.load(f)
 	f.close()
 
 	all_name_set = set(all_names.keys())
 	people_has_oppo = set(oppo_map.keys())
 
-def load_from_csv():
-	f = open('Veale\'s The NOC List.csv', 'r')
-	names = {}
-
-	line = f.readline().strip()
-	heads = line.split(';')
-
-	lines = f.readlines();
-	csv_reader = csv.reader(lines, delimiter=';')
-
-	for entries in csv_reader:
-		name = entries[0]
-		if len(name) < 2:
-			continue
-		print 'is working on:', name, '#entries:', len(entries)
-		properties = {}
-		for i in range(1,23):
-			key = heads[i]
-			value = entries[i]
-			properties[key] = value
-		names[name] = properties
-
-
-def make_genre_to_names():
-	f = open('all_genre.pk', 'w')
-	all_genre = {}
-
-	for name in names:
-		genre_list = names[name]['Genres'].split(',')
+	for category in category2genre:
+		genre_list = category2genre[category]
 		for genre in genre_list:
-			genre = genre.strip()
-			if genre in all_genre:
-				all_genre[genre].add(name)
-			else:
-				all_genre[genre] = set([name])
-
-	cp.dump(all_genre, f)
-	f.close()
-
-def make_oppo_dict():
-	f = open('oppo_map_INKB.pk', 'w')
-	oppo_dict = {}
-
-	for name in names:
-		oppo_list = names[name]['Opponent'].split(',')
-		for oppo in oppo_list:
-			oppo = oppo.strip()
-			if len(oppo) < 2 or oppo not in names:
-				continue
-			if name not in oppo_dict:
-				oppo_dict[name] = set([oppo])
-			else:
-				oppo_dict[name].add(oppo)
-			if oppo in oppo_dict:
-				oppo_dict[oppo].add(name)
-			else:
-				oppo_dict[oppo] = set([name])
-
-	cp.dump(oppo_dict, f)
-	f.close()
+			genre2category[genre] = category
 
 	
 all_names = None
@@ -169,10 +106,12 @@ def find_people(genre):
 					second_people_cand_list = set(oppo_map[first_people])
 					# print 'did get 2nd people candidates', str(second_people_cand_list)
 					second_people = rand.sample(second_people_cand_list, 1)[0]
+					return first_people, second_people
 		else:
 			first_people = rand.sample(people_of_genre_has_oppo, 1)[0]
 			second_people_cand_list = set(oppo_map[first_people])
 			# print 'did get 2nd people candidates', str(second_people_cand_list)
 			second_people = rand.sample(second_people_cand_list, 1)[0]
+			return first_people, second_people
 	return first_people, second_people
 
