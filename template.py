@@ -3,12 +3,10 @@
 from collections import namedtuple
 import random
 
-import numpy as np
-
 from cc_pattern import noc
+from hashtags import popular_hashtags
 
 Topic = namedtuple('Topic', ['hashtag', 'who', 'what', 'where'])
-TweetSkeleton = namedtuple('TweetSkeleton', ['topic', 'person', 'creative_tweet'])
 
 class KnowledgeBase:
     def __init__(self):
@@ -29,20 +27,14 @@ class KnowledgeBase:
     def random(self):
         return self._to_person(random.choice(self.KB))
 
-def template(tweet_skeleton):
-    return '{}: {} {}'.format(tweet_skeleton.person.Character, tweet_skeleton.topic.hashtag, tweet_skeleton.creative_tweet)
+def iam(person):
+    return '#IAm{}'.format(person.Character.replace(' ',''))
 
-def create_tweet(topic, person, sentiment):
-    if sentiment < 0:
-        tweet = "This is really boring, I prefer {}.".format(random.choice(person.Typical_Activity))
-    else:
-        tweet = "I will jump in my {} and give everyone who doesn't think this is very important a round with my {}!".format(
-            random.choice(person.Vehicle_of_Choice), random.choice(person.Weapon_of_Choice))
+def youare(person):
+    return '#YouAre{}'.format(person.Character.replace(' ',''))
 
-    return TweetSkeleton(topic, person, tweet)
+def first_template(topic, me, other):
+    return "{} In my {} thinking about {}. What's your opinion, @convo_bot_2? {}".format(iam(me), random.choice(me.Vehicle_of_Choice), topic.hashtag, youare(other))
 
-if __name__ == '__main__':
-    KB = KnowledgeBase()
-    topic = Topic('#goldenglobe', None, None, None)
-    print template(create_tweet(topic, KB.random, np.random.randint(-1,1)))
-
+def second_template(topic, me, other):
+    return "@convo_bot_1 {} I know I am {}, but {} is really boring. I prefer {}.".format(iam(me), random.choice(me.Negative_Talking_Points), topic.hashtag, random.choice(me.Typical_Activity))

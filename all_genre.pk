@@ -1,0 +1,2603 @@
+(dp0
+S''
+p1
+c__builtin__
+set
+p2
+((lp3
+S'Sam Winchester'
+p4
+aVNiccolò Machiavelli
+p5
+aS'Tom Ripley'
+p6
+aS'William Shatner'
+p7
+aS'Samuel Johnson'
+p8
+aS'Billy Crystal'
+p9
+aS'Francis Bacon'
+p10
+aS'Hugh Jackman'
+p11
+aS'Sarah Palin'
+p12
+aS'Lois Lane'
+p13
+aS'Sarah Jessica Parker'
+p14
+aS'Dexter Morgan'
+p15
+aS'Bill Murray'
+p16
+aS'David Caruso'
+p17
+aS'Dr. Eldon Tyrell'
+p18
+aS'Theodore Roosevelt'
+p19
+aS'Bill Cosby'
+p20
+aS'Tony Blair'
+p21
+aS'Carrie Bradshaw'
+p22
+aS'Dean Winchester'
+p23
+aS'Mel Gibson'
+p24
+atp25
+Rp26
+sS'aeronautics'
+p27
+g2
+((lp28
+S'Neil Armstrong'
+p29
+aS'Buzz Aldrin'
+p30
+atp31
+Rp32
+sS'computers'
+p33
+g2
+((lp34
+S'Tim Berners-Lee'
+p35
+aS'Alan Turing'
+p36
+aS'Sergey Brin'
+p37
+aS'Edward Snowden'
+p38
+aS'Larry Page'
+p39
+atp40
+Rp41
+sS'art'
+p42
+g2
+((lp43
+S'Edward Hopper'
+p44
+aS'Vincent Van Gogh'
+p45
+aS'Michelangelo'
+p46
+aS'Frida Kahlo'
+p47
+aS'Norman Rockwell'
+p48
+aS'Salvador Dali'
+p49
+ag10
+aS'Marcel Duchamp'
+p50
+aS'Jeff Koons'
+p51
+aS'Jackson Pollock'
+p52
+aS'Leni Riefenstahl'
+p53
+aS'Antonio Vivaldi'
+p54
+aS'Leonardo Da Vinci'
+p55
+aS'Andy Warhol'
+p56
+aS'Pablo Picasso'
+p57
+atp58
+Rp59
+sS'family'
+p60
+g2
+((lp61
+S'Mrs. Doubtfire'
+p62
+atp63
+Rp64
+sS'theater'
+p65
+g2
+((lp66
+S'Uri Geller'
+p67
+atp68
+Rp69
+sS'cooklng'
+p70
+g2
+((lp71
+S'Ronald McDonald'
+p72
+atp73
+Rp74
+sS'culture'
+p75
+g2
+((lp76
+S'Charlemagne'
+p77
+aS'Karl Rove'
+p78
+ag8
+aS'Rain Man'
+p79
+aS'Mahatma Gandhi'
+p80
+ag53
+aS'Kim Kardashian'
+p81
+aS'Vladimir Putin'
+p82
+ag20
+aS'Margaret Thatcher'
+p83
+aS'George Washington'
+p84
+aS'George W. Bush'
+p85
+aS'Giacomo Casanova'
+p86
+aS'Gloria Steinem'
+p87
+aS'Joseph Goebbels'
+p88
+aS'Daniel Boone'
+p89
+aS'Imelda Marcos'
+p90
+aS'Herodotus'
+p91
+aS'Davy Crockett'
+p92
+aS'Michelle Obama'
+p93
+aS'Queen Elizabeth I'
+p94
+aS'Erasmus'
+p95
+aS'Glenn Beck'
+p96
+aS'Borat'
+p97
+aS'Del Boy Trotter'
+p98
+aS'Mao Tse-tung'
+p99
+aS'Nelson Mandela'
+p100
+aS'Charlie Brown'
+p101
+ag9
+aS'Norma Desmond'
+p102
+aS'Mikhail Gorbachev'
+p103
+aS'Cleopatra'
+p104
+aS'Cicero'
+p105
+aS'Jerry Springer'
+p106
+aS'Genghis Khan'
+p107
+aS'Cosmo Kramer'
+p108
+aS'Marco Polo'
+p109
+aS'Monica Lewinsky'
+p110
+aS'Joseph Stalin'
+p111
+aS'Karl Marx'
+p112
+aS'Newt Gingrich'
+p113
+aS'Lizzy Bennet'
+p114
+aS'Victor Meldrew'
+p115
+aS'Ralph Nader'
+p116
+aS'Ali G'
+p117
+aS'Croesus'
+p118
+aS'Hillary Clinton'
+p119
+ag16
+aS'Archie Bunker'
+p120
+aS'Forrest Gump'
+p121
+aS'Mr. Darcy'
+p122
+aS'King Richard III'
+p123
+aS'Henry Kissinger'
+p124
+atp125
+Rp126
+sS'fashion'
+p127
+g2
+((lp128
+S'Coco Chanel'
+p129
+atp130
+Rp131
+sS'radio'
+p132
+g2
+((lp133
+S'Alan Partridge'
+p134
+aS'Rush Limbaugh'
+p135
+aS'Howard Stern'
+p136
+atp137
+Rp138
+sS'economics'
+p139
+g2
+((lp140
+S'Ayn Rand'
+p141
+aS'Adam Smith'
+p142
+aS'John Maynard Keynes'
+p143
+atp144
+Rp145
+sS'pornography'
+p146
+g2
+((lp147
+S'Jenna Jameson'
+p148
+aS'Larry Flynt'
+p149
+aS'Hugh Hefner'
+p150
+atp151
+Rp152
+sS'politics'
+p153
+g2
+((lp154
+g80
+aS'King Henry VIII'
+p155
+ag82
+aS'Rosa Parks'
+p156
+ag87
+aS'Richard Nixon'
+p157
+aVTomás de Torquemada
+p158
+aS'Colonel Kurtz'
+p159
+aS'Boris Johnson'
+p160
+aS'Pontius Pilate'
+p161
+aS'Condoleezza Rice'
+p162
+aS'Benjamin Franklin'
+p163
+ag100
+aS'Che Guevara'
+p164
+aS'Alan Greenspan'
+p165
+aS'Barack Obama'
+p166
+ag110
+aS'Rupert Murdoch'
+p167
+aS'Malcolm X'
+p168
+ag112
+ag113
+aS'Jimmy Carter'
+p169
+aS'Al Gore'
+p170
+aS'Sun Tzu'
+p171
+aS'William Randolph Hearst'
+p172
+aS'Martin Luther King'
+p173
+aS'Scipio Africanus'
+p174
+aS'Fidel Castro'
+p175
+ag121
+ag123
+ag38
+aS'Jeremy Paxman'
+p176
+aS'Pope Benedict XVI'
+p177
+ag19
+aS'Nicolas Sarkozy'
+p178
+ag83
+aS'Napoleon Bonaparte'
+p179
+aS'Jesse Jackson'
+p180
+ag92
+ag12
+aS'Matt Drudge'
+p181
+aS'Pope Francis'
+p182
+aS'Abraham Lincoln'
+p183
+ag104
+ag107
+aS'Winston Churchill'
+p184
+aS'Neville Chamberlain'
+p185
+ag77
+aS'Vladimir Lenin'
+p186
+aS'Emperor Constantine'
+p187
+ag94
+ag135
+aS'Kim Jong-Il'
+p188
+aS'Dick Cheney'
+p189
+aS'Dan Quayle'
+p190
+aS'Benito Mussolini'
+p191
+aS'John Wilkes Booth'
+p192
+aS'Voltaire'
+p193
+aS'Charles Foster Kane'
+p194
+aS'Chelsea Manning'
+p195
+aS'Carl Von Clausewitz'
+p196
+ag84
+aS'Michael Moore'
+p197
+aS'Alexander the Great'
+p198
+aS'Ayatollah Khomeini'
+p199
+ag116
+aS'Benedict Arnold'
+p200
+ag90
+aS'Joe Biden'
+p201
+aS'Anne Boleyn'
+p202
+aS'Silvio Berlusconi'
+p203
+ag96
+aS'Charles Lindbergh'
+p204
+aS'Bill Clinton'
+p205
+ag111
+aS'Bradley Manning'
+p206
+aS'Rudy Giuliani'
+p207
+aS'Emperor Caligula'
+p208
+ag119
+aS'Cardinal Richelieu'
+p209
+aS'Noam Chomsky'
+p210
+ag85
+aS'Jesus Christ'
+p211
+ag78
+ag53
+aS'Angela Merkel'
+p212
+aS'Aung San Suu Kyi'
+p213
+ag88
+aS'Ann Coulter'
+p214
+ag93
+aS'Donald Rumsfeld'
+p215
+aS'General George Patton'
+p216
+ag99
+aS'Leon Trotsky'
+p217
+aS'Dr. Strangelove'
+p218
+ag103
+aS'John F. Kennedy'
+p219
+ag105
+aS'Dominique Strauss-Kahn'
+p220
+aS'Adolf Hitler'
+p221
+aS'Garry Trudeau'
+p222
+aS'Savonarola'
+p223
+ag118
+aS'Christopher Hitchens'
+p224
+aS'John McCain'
+p225
+aS'Ariel Sharon'
+p226
+ag21
+ag124
+aS'Grigori Rasputin'
+p227
+atp228
+Rp229
+sS'law and order'
+p230
+g2
+((lp231
+S'Eliot Ness'
+p232
+atp233
+Rp234
+sS'sport'
+p235
+g2
+((lp236
+S'Joe Louis'
+p237
+aS'Charles Atlas'
+p238
+aS'Garry Kasparov'
+p239
+aS'Carl Lewis'
+p240
+aS'Michael Phelps'
+p241
+aS'Lance Armstrong'
+p242
+aS'John McEnroe'
+p243
+aS'Kobe Bryant'
+p244
+aS'Wayne Gretzky'
+p245
+aS'Pete Sampras'
+p246
+aS'Muhammad Ali'
+p247
+aS'Tiger Woods'
+p248
+aS'Bobby Fischer'
+p249
+aS'Jeffrey "The Dude" Lebowski'
+p250
+aS'Rocky Balboa'
+p251
+aS'Eddy Merckx'
+p252
+aS'Wayne Rooney'
+p253
+aS'Miles Davis'
+p254
+aS'Mr. Miyagi'
+p255
+aS'Yogi Berra'
+p256
+aS'Roger Federer'
+p257
+aS'Oscar Pistorius'
+p258
+aS'David Beckham'
+p259
+aS'Mike Tyson'
+p260
+aS'Bruce Lee'
+p261
+aS'George Foreman'
+p262
+aS'Hulk Hogan'
+p263
+aS'Babe Ruth'
+p264
+aS'Don King'
+p265
+aS'Michael Jordan'
+p266
+aS'Michael Schumacher'
+p267
+aS'Pac Man'
+p268
+aS'Luis Suarez'
+p269
+atp270
+Rp271
+sS'singing'
+p272
+g2
+((lp273
+VBeyoncé
+p274
+aS'Ella Fitzgerald'
+p275
+aS'Dolly Parton'
+p276
+aS'Garth Brooks'
+p277
+aS'Weird Al Yankovic'
+p278
+aS'Bing Crosby'
+p279
+aS'Frank Sinatra'
+p280
+aS'Karen Carpenter'
+p281
+aS'Bruce Springsteen'
+p282
+aS'Svengali'
+p283
+aS'Woody Guthrie'
+p284
+aS'Justin Timberlake'
+p285
+aS'Elvis Presley'
+p286
+aS'Eminem'
+p287
+aS'Doris Day'
+p288
+aS'Luciano Pavarotti'
+p289
+aS'Judy Garland'
+p290
+aS'George Harrison'
+p291
+aS'Eddie Van Halen'
+p292
+aS'Enrico Caruso'
+p293
+aS'Brian Wilson'
+p294
+aS'Ricky Martin'
+p295
+aS'Lou Reed'
+p296
+aS'Nigel Tufnel'
+p297
+aS'Elton John'
+p298
+aS'Fred Astaire'
+p299
+aS'Justin Bieber'
+p300
+aS'Paul McCartney'
+p301
+aS'Barry White'
+p302
+aS'Frank Zappa'
+p303
+aS'David Bowie'
+p304
+aS'Iggy Pop'
+p305
+aS'Bob Dylan'
+p306
+aS'Leonard Cohen'
+p307
+aS'Kurt Cobain'
+p308
+aS'Jay-Z Carter'
+p309
+aS'Sid Vicious'
+p310
+aS'John Lennon'
+p311
+aS'Jim Morrison'
+p312
+aS'Robbie Williams'
+p313
+aS'Bono'
+p314
+aS'Tina Turner'
+p315
+aS'Janis Joplin'
+p316
+aS'Tom Jones'
+p317
+aS'Tom Waits'
+p318
+aS'Dean Martin'
+p319
+aS'Britney Spears'
+p320
+aS'Michael Jackson'
+p321
+aS'Eric Clapton'
+p322
+aS'Mariah Carey'
+p323
+aS'Kanye West'
+p324
+aS'Ozzy Osbourne'
+p325
+aS'David Byrne'
+p326
+ag11
+aS'Courtney Love'
+p327
+aS'Edith Piaf'
+p328
+aS'Mick Jagger'
+p329
+aS'David Lee Roth'
+p330
+aS'Bob Marley'
+p331
+aS'Jimi Hendrix'
+p332
+aS'Madonna'
+p333
+aS'Louis Armstrong'
+p334
+atp335
+Rp336
+sS'education'
+p337
+g2
+((lp338
+S'Helen Keller'
+p339
+atp340
+Rp341
+sS'publishing'
+p342
+g2
+((lp343
+g167
+ag194
+ag149
+ag150
+atp344
+Rp345
+sS'science fiction'
+p346
+g2
+((lp347
+S'Roy Batty'
+p348
+aS'James T. Kirk'
+p349
+aS'Tim Burton'
+p350
+aS'Boba Fett'
+p351
+aS'Arthur Dent'
+p352
+aS'E.T.'
+p353
+aS'Agent Phil Coulson'
+p354
+aS'Jar Jar Binks'
+p355
+aS'Professor Hans Zarkov'
+p356
+aS'George McFly'
+p357
+aS'Dana Scully'
+p358
+aS'Jabba the Hutt'
+p359
+aS'Obi-wan Kenobi'
+p360
+aS'Commander Data'
+p361
+aS'Trinity'
+p362
+aS'Richard B. Riddick'
+p363
+aS'Ming The Merciless'
+p364
+aS'General Zod'
+p365
+aS'Sarah Connor'
+p366
+aS'Loki Laufeyson'
+p367
+aS'C-3PO'
+p368
+aS'R2D2'
+p369
+aS'Buck Rogers'
+p370
+aS'Luke Skywalker'
+p371
+aS'Darth Vader'
+p372
+aS'Chewbacca'
+p373
+aS'Jean-Luc Picard'
+p374
+aS'Fox Mulder'
+p375
+aS'Thomas "Neo" Anderson'
+p376
+aS'Doc Emmett Brown'
+p377
+aS'H.A.L. 9000'
+p378
+aS'Ellen Ripley'
+p379
+aS'Rick Deckard'
+p380
+aS'Jor El'
+p381
+aS'Marty McFly'
+p382
+aS'Emperor Palpatine'
+p383
+aS'Darth Maul'
+p384
+aS'Princess Leia Organa'
+p385
+aS'Flash Gordon'
+p386
+aS'Biff Tannen'
+p387
+aS'Snake Plissken'
+p388
+aS'Mr. Spock'
+p389
+aS'Kal El'
+p390
+aS'Agent Smith'
+p391
+aS'Nick Fury'
+p392
+aS'Wesley Crusher'
+p393
+aS'Optimus Prime'
+p394
+aS'Morpheus'
+p395
+aS'Thor Odinson'
+p396
+aS'Victor Frankenstein'
+p397
+aS'Judge Joe Dredd'
+p398
+aS'Yoda'
+p399
+aS'Han Solo'
+p400
+atp401
+Rp402
+sS'archeology'
+p403
+g2
+((lp404
+S'Indiana Jones'
+p405
+atp406
+Rp407
+sS'cooking'
+p408
+g2
+((lp409
+S'Marco Pierre White'
+p410
+aS'Nigella Lawson'
+p411
+aS'Gordon Ramsay'
+p412
+aS'Willy Wonka'
+p413
+aS'Martha Stewart'
+p414
+aS'Julia Child'
+p415
+aS'Anthony Bourdain'
+p416
+aS'Walter White'
+p417
+aS'Jamie Oliver'
+p418
+aS'The HamBurglar'
+p419
+atp420
+Rp421
+sS'poetry'
+p422
+g2
+((lp423
+S'Homer'
+p424
+aS'Lord Byron'
+p425
+ag307
+aS'Walt Whitman'
+p426
+aS'Dante Alighieri'
+p427
+aS'Gerard Manley Hopkins'
+p428
+aS'Sylvia Plath'
+p429
+aS'Emily Dickinson'
+p430
+aS'John Keats'
+p431
+atp432
+Rp433
+sS'crime'
+p434
+g2
+((lp435
+S'Jack Reacher'
+p436
+aS'Jay Gatsby'
+p437
+aVKeyser Söze
+p438
+aS'The Joker'
+p439
+aS'Inspector Endeavour Morse'
+p440
+aS'Michael Corleone'
+p441
+ag232
+aS'Sir Hugo Drax'
+p442
+aS'Jack The Ripper'
+p443
+aS'Saul Goodman'
+p444
+aS'Robin Hood'
+p445
+aS'Hannibal Lecter'
+p446
+aS'Osama Bin Laden'
+p447
+aS'Wyatt Earp'
+p448
+aS'Tony Montana'
+p449
+aS'Dr. Julius No'
+p450
+aS'J. Edgar Hoover'
+p451
+aS'Clarice Starling'
+p452
+aS'Tony DiNozzo'
+p453
+aS'Auric Goldfinger'
+p454
+aS'Gustavo Fring'
+p455
+aS'Bernard Madoff'
+p456
+aS'Saddam Hussein'
+p457
+aS'Professor James Moriarty'
+p458
+ag6
+aS'Hans Gruber'
+p459
+aS'John McClane'
+p460
+aS'John Dillinger'
+p461
+aS'Tony Soprano'
+p462
+aS'Le Chiffre'
+p463
+aS'Travis Bickle'
+p464
+aS'Fredo Corleone'
+p465
+aS'Adolf Eichmann'
+p466
+aS'Sonny Crockett'
+p467
+aS'Modesty Blaise'
+p468
+aS'Al Capone'
+p469
+aS'Timothy McGee'
+p470
+aS'Leroy Jethro Gibbs'
+p471
+aS'Don Vito Corleone'
+p472
+aS'Ernst Stavro Blofeld'
+p473
+aS'Rico Tubbs'
+p474
+aS'Dirty Harry Callahan'
+p475
+ag417
+aS'Jesse Pinkman'
+p476
+ag419
+atp477
+Rp478
+sS'religion'
+p479
+g2
+((lp480
+g177
+ag211
+ag199
+aS'Mother Teresa'
+p481
+ag182
+aS'Noah'
+p482
+aS'Johann Sebastian Bach'
+p483
+aS'Judas Iscariot'
+p484
+ag173
+aS'Lucifer'
+p485
+aS'Buddha'
+p486
+aS'Samson'
+p487
+aS'Robert Langdon'
+p488
+aS'Jim Jones'
+p489
+aS'Moses'
+p490
+ag158
+atp491
+Rp492
+sS'music'
+p493
+g2
+((lp494
+g274
+aS'Franz Liszt'
+p495
+aS'Charlie Parker'
+p496
+ag275
+ag276
+ag277
+ag278
+ag279
+ag280
+ag281
+ag54
+ag283
+ag284
+ag285
+ag313
+ag286
+ag318
+ag294
+ag328
+ag289
+ag290
+ag291
+ag292
+aS'Wolfgang Amadeus Mozart'
+p497
+aS'Keith Richards'
+p498
+ag316
+ag332
+ag288
+ag295
+ag296
+ag297
+ag287
+ag299
+ag300
+ag301
+aS'Kenny G'
+p499
+ag302
+ag308
+ag303
+aS'Ludwig Van Beethoven'
+p500
+aS'Johnny Cash'
+p501
+ag304
+ag305
+ag306
+ag307
+ag483
+ag309
+ag310
+ag311
+ag312
+ag324
+ag314
+ag315
+ag333
+ag317
+ag319
+ag320
+ag321
+ag322
+ag298
+ag323
+aS'Andrew Lloyd Webber'
+p502
+ag325
+aS'Jerry Lee Lewis'
+p503
+ag326
+aS'Antonio Salieri'
+p504
+ag327
+ag282
+aS'Keith Moon'
+p505
+aS'Ringo Starr'
+p506
+ag329
+ag330
+ag331
+ag293
+aVNiccolò Paganini
+p507
+aS'David Hasselhoff'
+p508
+ag334
+atp509
+Rp510
+sS'teen fiction'
+p511
+g2
+((lp512
+S'Hermione Granger'
+p513
+atp514
+Rp515
+sS'internet'
+p516
+g2
+((lp517
+S'Julian Assange'
+p518
+atp519
+Rp520
+sS'medicine'
+p521
+g2
+((lp522
+S'Dr. Greg House'
+p523
+aS'Florence Nightingale'
+p524
+aS'Patch Adams'
+p525
+atp526
+Rp527
+sS'mathematics'
+p528
+g2
+((lp529
+S'Euclid'
+p530
+ag36
+atp531
+Rp532
+sS'technology'
+p533
+g2
+((lp534
+g39
+ag37
+ag36
+ag35
+aS'Bill Gates'
+p535
+aS'Mark Zuckerberg'
+p536
+ag38
+atp537
+Rp538
+sS'comedy'
+p539
+g2
+((lp540
+S'Tweety Pie'
+p541
+aS'Derek Zoolander'
+p542
+aS'Jack Donaghy'
+p543
+aS'Robert Downey Jr.'
+p544
+ag350
+aS'Woody Allen'
+p545
+aS'Jim Carrey'
+p546
+aS'Jon Stewart'
+p547
+ag20
+aS'Jerry Seinfeld'
+p548
+aS'Moe Szyslak'
+p549
+aS'Hugh Grant'
+p550
+aS'Rachel Green'
+p551
+aS'Fred Flintstone'
+p552
+aS'Benny Hill'
+p553
+ag357
+aS'Dr. Evil'
+p554
+aS'Groucho Marx'
+p555
+aS'Scott Evil'
+p556
+aS'George Costanza'
+p557
+ag97
+aS'Lenny Bruce'
+p558
+ag98
+aS'Monsieur Hulot'
+p559
+aS'Steve Martin'
+p560
+aVNoël Coward
+p561
+ag134
+ag9
+aS'Michael J. Fox'
+p562
+aS'Daphne Moon'
+p563
+aS'Charlie Harper'
+p564
+ag250
+aS'Basil Fawlty'
+p565
+aS'Jack Sparrow'
+p566
+aS'Russell Brand'
+p567
+aS'Barney Stinson'
+p568
+aS'Kenneth Parcell '
+p569
+aS'Monica Geller'
+p570
+aS'Niles Crane'
+p571
+aS'Dame Edna Everage'
+p572
+aS'John Belushi'
+p573
+aS'Baldrick'
+p574
+aS'Jerry Lewis'
+p575
+aS'Barney Gumble'
+p576
+ag278
+aS'Eddie Murphy'
+p577
+aS'Joey Tribbiani'
+p578
+ag352
+aS'Joan Rivers'
+p579
+aS'Bridget Jones'
+p580
+aS'Larry David'
+p581
+aS'Barney Rubble'
+p582
+ag382
+aS'Edmund Blackadder'
+p583
+aS'Jenna Maroney'
+p584
+aS'Charlie Chaplin'
+p585
+aS'Sylvester the Cat'
+p586
+aS'Shrek'
+p587
+ag387
+aS'Robin Williams'
+p588
+aS'Phoebe Buffay'
+p589
+aS'Bruce Willis'
+p590
+aS'Sarah Silverman'
+p591
+aS'Inspector Clouseau'
+p592
+aS'Liz Lemon'
+p593
+ag117
+aS'Frasier Crane'
+p594
+aS'Simon Pegg'
+p595
+aS'Jay Leno'
+p596
+aS'Lt. George Colthurst St Barleigh'
+p597
+aS'Ron Burgundy'
+p598
+aS'Mr. Bean'
+p599
+ag16
+aS'Ross Geller'
+p600
+aS'Mel Brooks'
+p601
+aS'Oscar Wilde'
+p602
+aS'Stephen Colbert'
+p603
+aS'Bertie Wooster'
+p604
+aS'Lord Percy Percy'
+p605
+aS'Chandler Bing'
+p606
+ag377
+aS'Princess Fiona'
+p607
+aS'Tracy Jordan'
+p608
+atp609
+Rp610
+sS'racing'
+p611
+g2
+((lp612
+g267
+ag258
+atp613
+Rp614
+sS'war'
+p615
+g2
+((lp616
+g457
+ag199
+aS"Scarlett O'Hara"
+p617
+ag94
+ag123
+ag447
+atp618
+Rp619
+sS'espionage'
+p620
+g2
+((lp621
+S'Jason Bourne'
+p622
+ag354
+ag392
+ag556
+aS'James Bond'
+p623
+aS'George Smiley'
+p624
+aS'Sydney Bristow'
+p625
+aS'Kim Philby'
+p626
+ag554
+ag518
+aS'Mata Hari'
+p627
+atp628
+Rp629
+sS'theatre'
+p630
+g2
+((lp631
+S'Juliet Capulet'
+p632
+ag502
+ag602
+ag561
+aS'Ophelia'
+p633
+aS'Anton Chekov'
+p634
+aS'David Mamet'
+p635
+aS'Stanley Kowalski'
+p636
+aS'Hamlet'
+p637
+aS'Romeo Montague'
+p638
+aS'William Shakespeare'
+p639
+aS'George Bernard Shaw'
+p640
+aS'Polonius'
+p641
+aS'Blanche DuBois'
+p642
+atp643
+Rp644
+sS'literature'
+p645
+g2
+((lp646
+S'Mark Twain'
+p647
+aS'The Scarlet Pimpernel'
+p648
+aS'Thomas Pynchon'
+p649
+aS'Arthur Conan Doyle'
+p650
+aS'Huckleberry Finn'
+p651
+aS'Uriah Heap'
+p652
+aS'Sherlock Holmes'
+p653
+aS'Jaime Lannister'
+p654
+ag633
+aS'The Artful Dodger'
+p655
+aS'Emma Bovary'
+p656
+ag642
+ag424
+aS'Lisbeth Salander'
+p657
+aS'Ebenezer Scrooge'
+p658
+aS'Miss Jane Marple'
+p659
+aS'Albus Dumbledore'
+p660
+aS'Hercule Poirot'
+p661
+aS'Dorothy Parker'
+p662
+aS'Dan Brown'
+p663
+aS'Bob Cratchit'
+p664
+aS'Samwise Gamgee'
+p665
+aS'Harry Potter'
+p666
+ag436
+aS'Severus Snape'
+p667
+ag352
+ag624
+aS'Frodo Baggins'
+p668
+ag638
+ag446
+aS'Tyrion Lannister'
+p669
+aS'Sam Spade'
+p670
+aS'Jane Austen'
+p671
+aS'Kurt Vonnegut'
+p672
+aS'Raymond Chandler'
+p673
+aS'Robinson Crusoe'
+p674
+ag430
+aS'Ernest Hemingway'
+p675
+ag458
+aS'Saruman the White'
+p676
+aS'Anna Karenina'
+p677
+aS'Jack Kerouac'
+p678
+aS'Leo Tolstoy'
+p679
+ag617
+aS'Gore Vidal'
+p680
+aS'Cersei Lannister'
+p681
+ag640
+ag604
+aS'Bilbo Baggins'
+p682
+aS'Philip Marlowe'
+p683
+ag634
+aS'Allan Quatermain'
+p684
+ag193
+aS'Tom Sawyer'
+p685
+aS'Salman Rushdie'
+p686
+ag122
+aS'Lord Voldemort'
+p687
+ag636
+aS'James Joyce'
+p688
+ag641
+aS'Wilkins Micawber'
+p689
+ag580
+aS'Elmore Leonard'
+p690
+aS'Henry James'
+p691
+aS'H.P. Lovecraft'
+p692
+aS'Edward Cullen'
+p693
+aS'Gandalf the Grey'
+p694
+aS'Samuel Pepys'
+p695
+aS'Charles Dickens'
+p696
+ag637
+aS'Truman Capote'
+p697
+aS'George Orwell'
+p698
+ag431
+aS'Tiny Tim Cratchit'
+p699
+aS'John Grisham'
+p700
+ag427
+aS'Virginia Woolf'
+p701
+aS'Captain Ahab'
+p702
+aS'Jean-Paul Sartre'
+p703
+aS'Dr. Henry Jekyll'
+p704
+aS'Eddard Stark'
+p705
+ag639
+aS'Dr. John Watson'
+p706
+aS'Simone de Beauvoir'
+p707
+aS'Sauron'
+p708
+aS'Fagin'
+p709
+aS'Peter Pan'
+p710
+ag114
+aS'JD Salinger'
+p711
+aS'Dorian Gray'
+p712
+ag632
+aS'Jonathan Swift'
+p713
+aS'Mr. Edward Hyde'
+p714
+ag602
+aS'Maleficent'
+p715
+aS'Henry Miller'
+p716
+atp717
+Rp718
+sS'finance'
+p719
+g2
+((lp720
+S'Montgomery Burns'
+p721
+ag456
+ag450
+ag463
+ag442
+aS'Gordon Gekko'
+p722
+ag454
+ag473
+atp723
+Rp724
+sS'business'
+p725
+g2
+((lp726
+S'Richard Branson'
+p727
+ag437
+aS'Zsa Zsa Gabor'
+p728
+aS'Alan Sugar'
+p729
+aS'Wilbur Wright'
+p730
+aS'Thomas Edison'
+p731
+ag194
+ag442
+aS'Simon Cowell'
+p732
+ag722
+aS'Don Draper'
+p733
+ag456
+aS'Colonel Sanders'
+p734
+ag450
+ag37
+aS'George Soros'
+p735
+aS'Naomi Campbell'
+p736
+aS'Tony Robbins'
+p737
+aS'Kate Moss'
+p738
+aS'Steve Ballmer'
+p739
+ag414
+ag565
+aS'Walt Disney'
+p740
+aS'Lex Luthor'
+p741
+ag454
+aS'Henry Ford'
+p742
+ag39
+ag72
+aS'Karl Lagerfeld'
+p743
+ag309
+aS'P. T. Barnum'
+p744
+ag413
+aS'Steve Jobs'
+p745
+aS'Bruce Wayne'
+p746
+aS'Ray Kroc'
+p747
+aS'Warren Buffett'
+p748
+ag167
+ag536
+aS'Donald Trump'
+p749
+aS'Orville Wright'
+p750
+ag721
+ag463
+ag172
+ag129
+aS'Howard Hughes'
+p751
+ag473
+ag535
+ag417
+aS"Michael O'Leary"
+p752
+atp753
+Rp754
+sS'horror'
+p755
+g2
+((lp756
+g692
+ag4
+aS'Count Dracula'
+p757
+ag693
+ag485
+aS'John Constantine'
+p758
+ag350
+ag704
+aS'Freddy Krueger'
+p759
+aS'Michael Myers'
+p760
+aS'Norman Bates'
+p761
+ag397
+ag452
+ag714
+ag379
+ag715
+aS'Hellboy'
+p762
+ag446
+ag23
+aS'Jason Voorhees'
+p763
+atp764
+Rp765
+sS'philosophy'
+p766
+g2
+((lp767
+g737
+ag488
+aS'Confucius'
+p768
+aS'Plato'
+p769
+ag193
+ag141
+ag142
+ag80
+ag707
+aS'Deepak Chopra'
+p770
+ag703
+aS'Aristotle'
+p771
+ag486
+atp772
+Rp773
+sS'zoology'
+p774
+g2
+((lp775
+S'Dian Fossey'
+p776
+atp777
+Rp778
+sS'society'
+p779
+g2
+((lp780
+g6
+atp781
+Rp782
+sS'aviation'
+p783
+g2
+((lp784
+S'Amelia Earhart'
+p785
+ag204
+atp786
+Rp787
+sS'comic books'
+p788
+g2
+((lp789
+g468
+atp790
+Rp791
+sS'law'
+p792
+g2
+((lp793
+S'Harvey Dent'
+p794
+ag700
+aS'Atticus Finch'
+p795
+aS'Judge Judy Sheindlin'
+p796
+aS'Perry Mason'
+p797
+ag592
+aS'Commissioner James Gordon'
+p798
+ag398
+atp799
+Rp800
+sS'terrorism'
+p801
+g2
+((lp802
+g439
+ag457
+ag447
+atp803
+Rp804
+sS'architecture'
+p805
+g2
+((lp806
+S'Frank Gehry'
+p807
+aS'Frank Lloyd Wright'
+p808
+atp809
+Rp810
+sS'stunts'
+p811
+g2
+((lp812
+S'Evel Knievel'
+p813
+aS'Jackie Chan'
+p814
+atp815
+Rp816
+sS'television'
+p817
+g2
+((lp818
+g4
+ag354
+aS'Adam West'
+p819
+ag98
+ag418
+aS'Bart Simpson'
+p820
+ag732
+aS'Leonard Hofstadter'
+p821
+aS'Eric Cartman'
+p822
+ag564
+ag733
+ag796
+ag625
+ag453
+ag569
+ag593
+aS'Popeye'
+p823
+aS'Mr. Krabs'
+p824
+ag578
+aS'Wile E. Coyote'
+p825
+aS'Stephen Jay Gould'
+p826
+ag581
+ag14
+ag551
+ag586
+ag594
+ag415
+ag597
+ag81
+ag603
+ag571
+ag606
+ag176
+aS'Bugs Bunny'
+p827
+ag471
+aS'Bear Grylls'
+p828
+ag548
+aS'Brian Griffin'
+p829
+aS'Al Bundy'
+p830
+ag669
+ag508
+ag573
+aS'Sideshow Bob'
+p831
+ag22
+ag416
+ag570
+ag654
+ag574
+aS'David Blaine'
+p832
+ag412
+ag106
+ag108
+ag410
+aS'Piers Morgan'
+p833
+ag7
+aS'Jack Bauer'
+p834
+ag681
+aS'Carl Sagan'
+p835
+ag474
+ag604
+ag605
+ag417
+ag553
+aS'Ned Flanders'
+p836
+ag547
+aS'Olive Oyl'
+p837
+aS'Squidward Tentacles'
+p838
+ag17
+ag23
+aS'Sheldon Cooper'
+p839
+ag414
+ag565
+aVPepé Le Pew
+p840
+aS'Pamela Anderson'
+p841
+aS'Jeremy Clarkson'
+p842
+ag568
+ag591
+aS'Yosemite Sam'
+p843
+aS'Inspector Gadget'
+p844
+aS'Marge Simpson'
+p845
+ag589
+ag135
+ag462
+ag584
+aS'Porky Pig'
+p846
+ag117
+ag467
+aS'Stewie Griffin'
+p847
+ag596
+aS'Spongebob Squarepants'
+p848
+ag599
+ag563
+ag600
+ag120
+ag455
+ag797
+aS'Seth MacFarlane'
+p849
+ag476
+ag572
+ag608
+ag541
+ag543
+aS'Paris Hilton'
+p850
+aS'Tina Fey'
+p851
+ag440
+aS'Oprah Winfrey'
+p852
+aS'Frank Columbo'
+p853
+ag358
+ag444
+ag555
+ag557
+aS'Xena'
+p854
+aS'Peter Griffin'
+p855
+ag134
+ag562
+aS'David Letterman'
+p856
+ag705
+ag375
+ag579
+ag15
+ag583
+aS'Larry King'
+p857
+ag115
+ag411
+ag470
+atp858
+Rp859
+sS'magic'
+p860
+g2
+((lp861
+g666
+ag832
+ag687
+aS'Harry Houdini'
+p862
+ag667
+ag660
+aS'Ron Weasley'
+p863
+atp864
+Rp865
+sS'warfare'
+p866
+g2
+((lp867
+S'John Rambo'
+p868
+ag162
+ag171
+ag159
+ag174
+ag524
+ag218
+ag215
+ag195
+ag196
+ag216
+ag206
+ag188
+ag184
+ag627
+ag198
+atp869
+Rp870
+sS'fantasy'
+p871
+g2
+((lp872
+g4
+ag23
+ag350
+aS'Pinocchio'
+p873
+ag668
+ag485
+ag854
+ag654
+ag513
+ag669
+ag566
+aS'Tarzan'
+p874
+ag705
+aS'Peter Jackson'
+p875
+ag693
+ag708
+aS'Walter Mitty'
+p876
+ag676
+aS'Tyler Durden'
+p877
+aS'Santa Claus'
+p878
+ag694
+ag681
+aS'Edward Scissorhands'
+p879
+ag715
+ag682
+ag665
+atp880
+Rp881
+sS'comics'
+p882
+g2
+((lp883
+g758
+aS'Bruce Banner'
+p884
+aS'Clark Kent'
+p885
+ag762
+ag798
+ag794
+ag365
+aS'Tony Stark'
+p886
+aS'Batman'
+p887
+aS'Bane'
+p888
+aS'Stan Lee'
+p889
+ag741
+ag101
+aS'Captain America'
+p890
+ag381
+ag746
+aS'Rocket Raccoon'
+p891
+aS'Groot'
+p892
+aS'Conan the Barbarian'
+p893
+aS'Professor Charles Xavier'
+p894
+ag390
+aS'Richie Rich'
+p895
+aS'Peter Parker'
+p896
+aS'Red Sonja'
+p897
+atp898
+Rp899
+sS'science'
+p900
+g2
+((lp901
+S'Copernicus'
+p902
+aS'Nostradamus'
+p903
+aS'Marie Curie'
+p904
+ag884
+ag731
+aS'Charles Darwin'
+p905
+ag776
+ag821
+ag839
+ag36
+aS'Francis Crick'
+p906
+ag142
+aS'Nikola Tesla'
+p907
+aS'Stephen Hawking'
+p908
+ag826
+ag891
+ag892
+aS'Linus Torvalds'
+p909
+ag730
+aS'Richard Dawkins'
+p910
+ag750
+ag894
+ag210
+ag835
+ag530
+aS'Sigmund Freud'
+p911
+aS'Albert Einstein'
+p912
+atp913
+Rp914
+sS'video games'
+p915
+g2
+((lp916
+S'Lara Croft'
+p917
+atp918
+Rp919
+sS'movies'
+p920
+g2
+((lp921
+g354
+ag758
+ag350
+aS'Russell Crowe'
+p922
+ag545
+ag554
+ag286
+ag362
+aS'Cameron Diaz'
+p923
+aS'Angelina Jolie'
+p924
+ag794
+aS'Robert Redford'
+p925
+ag560
+aS'Elizabeth Taylor'
+p926
+ag759
+ag251
+aS'Orson Welles'
+p927
+ag255
+aS'Ed Wood'
+p928
+ag757
+aS'James Franco'
+p929
+aS'Donald Duck'
+p930
+ag380
+ag14
+ag762
+ag588
+aS'Ridley Scott'
+p931
+ag388
+aS'James Dean'
+p932
+ag875
+aS'Quentin Tarantino'
+p933
+ag595
+ag475
+aS'Kevin Smith'
+p934
+ag665
+ag607
+aS'Nicolas Cage'
+p935
+ag396
+aS'Spartacus'
+p936
+ag559
+aS'Will Smith'
+p937
+ag657
+ag79
+ag668
+aS'Mickey Mouse'
+p938
+aS'Heath Ledger'
+p939
+aS'Sean Penn'
+p940
+ag798
+ag363
+ag449
+aS'Arnold Schwarzenegger'
+p941
+aS'Sylvester Stallone'
+p942
+ag566
+ag874
+ag452
+aS'Pocahontas'
+p943
+ag763
+ag575
+ag261
+ag102
+ag379
+aS'Alfred Hitchcock'
+p944
+aS'Sean Connery'
+p945
+ag381
+ag746
+aS'Greta Garbo'
+p946
+aS'John Merrick'
+p947
+ag676
+aS'Colin Farrell'
+p948
+ag464
+ag893
+aS'Marlon Brando'
+p949
+ag592
+ag7
+ag617
+aS'Mad Max Rockatansky'
+p950
+aS'Alec Baldwin'
+p951
+aS'Grace Kelly'
+p952
+ag598
+aS'Maximus Decimus Meridius'
+p953
+aS'Leonardo DiCaprio'
+p954
+ag868
+ag542
+ag544
+aS'Ben Affleck'
+p955
+aS'Tom Cruise'
+p956
+ag438
+ag556
+ag761
+ag550
+ag394
+ag348
+aS'Michael Bay'
+p957
+aS'Jack Nicholson'
+p958
+ag288
+ag319
+ag197
+ag97
+aS'Mae West'
+p959
+aS'Daniel Day-Lewis'
+p960
+ag397
+ag587
+ag299
+aS'Lindsay Lohan'
+p961
+ag740
+aS'David Lynch'
+p962
+aS'George Clooney'
+p963
+aS'Megan Fox'
+p964
+aS'Kevin Bacon'
+p965
+aS'Audrey Hepburn'
+p966
+ag366
+ag760
+aS'Daniel Craig'
+p967
+ag460
+aS'Lee Marvin'
+p968
+ag877
+ag694
+aS'Brad Pitt'
+p969
+ag392
+ag395
+ag590
+aS'Shirley Temple'
+p970
+ag24
+aS'Al Pacino'
+p971
+aS'Billy Bob Thornton'
+p972
+aS'Chuck Norris'
+p973
+ag546
+ag555
+ag885
+aS'Steven Spielberg'
+p974
+ag280
+aS'Mickey Rourke'
+p975
+aS'Austin Powers'
+p976
+aS'Cary Grant'
+p977
+ag577
+aS'Julia Roberts'
+p978
+ag290
+aS'Marilyn Monroe'
+p979
+aS'John Travolta'
+p980
+ag887
+ag367
+ag562
+ag814
+aS'John Wayne'
+p981
+aS'Joaquin Phoenix'
+p982
+ag601
+aS'Jimmy Cagney'
+p983
+aS'Federico Fellini'
+p984
+aS'Clark Gable'
+p985
+ag708
+aS'Errol Flynn'
+p986
+aS'Christian Bale'
+p987
+aS'Meryl Streep'
+p988
+ag580
+ag390
+aS'Tom Hanks'
+p989
+ag567
+ag365
+aS'Marlene Dietrich'
+p990
+aS'Jimmy Stewart'
+p991
+aS'Gwyneth Paltrow'
+p992
+ag682
+aS'Clint Eastwood'
+p993
+aS'Robert De Niro'
+p994
+aS'Frank Capra'
+p995
+aS'Adam Sandler'
+p996
+ag376
+ag391
+ag148
+ag11
+ag635
+ag879
+aS'Humphrey Bogart'
+p997
+aS'Buzz Lightyear'
+p998
+ag897
+atp999
+Rp1000
+sS'tragedy'
+p1001
+g2
+((lp1002
+S'King Lear'
+p1003
+ag633
+ag637
+ag632
+ag638
+ag641
+atp1004
+Rp1005
+sS'exploration'
+p1006
+g2
+((lp1007
+S'Christopher Columbus'
+p1008
+ag405
+atp1009
+Rp1010
+sS'cartoons'
+p1011
+g2
+((lp1012
+g827
+ag836
+ag820
+aS'Gary Larson'
+p1013
+aS'Daffy Duck'
+p1014
+aS'Glenn Quagmire'
+p1015
+ag549
+ag837
+aS'Mayor Joe Quimby'
+p1016
+ag552
+ag938
+ag829
+ag845
+aS'Kent Brockman'
+p1017
+aS'Troy McClure'
+p1018
+aS'Principal Seymour Skinner'
+p1019
+ag855
+aS'Krusty the Clown'
+p1020
+ag831
+ag840
+ag824
+aS'Edna Krabappel'
+p1021
+ag740
+ag843
+ag844
+ag101
+ag930
+aS'Waylon Smithers'
+p1022
+ag825
+ag582
+aS'Jeff "Comic Book Guy" Albertson'
+p1023
+aS'Elmer Fudd'
+p1024
+aS'Selma Bouvier'
+p1025
+aS'Rainier Luftwaffe Wolfcastle'
+p1026
+ag222
+aS'Nelson Muntz'
+p1027
+aS'Groundskeeper Willie MacDougal'
+p1028
+aS'Chief Clarence Wiggum'
+p1029
+ag846
+ag721
+aS'Lisa Simpson'
+p1030
+ag847
+aS'Lionel Hutz'
+p1031
+ag838
+ag848
+ag576
+ag823
+ag849
+ag998
+aS'Homer Simpson'
+p1032
+aS'Hans Moleman'
+p1033
+atp1034
+Rp1035
+sS'cartoons comedy'
+p1036
+g2
+((lp1037
+g822
+atp1038
+Rp1039
+sS'mythology'
+p1040
+g2
+((lp1041
+g4
+ag396
+ag367
+ag485
+ag897
+ag23
+ag893
+ag363
+atp1042
+Rp1043
+sS'painting'
+p1044
+g2
+((lp1045
+g44
+ag52
+atp1046
+Rp1047
+sS'history'
+p1048
+g2
+((lp1049
+g191
+ag1008
+ag47
+ag936
+ag208
+ag86
+ag583
+ag648
+ag164
+ag53
+ag155
+ag209
+ag947
+ag95
+ag445
+ag83
+ag84
+ag156
+ag85
+ag55
+ag198
+ag124
+ag448
+ag157
+ag88
+ag89
+ag566
+ag92
+ag223
+ag890
+ag161
+ag121
+ag466
+aS'Captain William Bligh'
+p1050
+ag179
+ag216
+ag168
+ag202
+ag163
+ag943
+ag219
+ag99
+ag107
+ag217
+ag204
+ag218
+ag103
+ag104
+ag105
+ag220
+ag184
+aS'Fletcher Christian'
+p1051
+ag524
+ag221
+ag77
+ag605
+ag111
+ag785
+ag112
+ag91
+ag169
+ag207
+ag171
+ag211
+ag186
+ag695
+aS'Lee Harvey Oswald'
+p1052
+ag118
+ag175
+ag200
+ag178
+ag680
+ag597
+ag187
+ag94
+ag109
+ag574
+ag617
+ag185
+ag953
+ag123
+ag80
+ag227
+atp1053
+Rp1054
+s.

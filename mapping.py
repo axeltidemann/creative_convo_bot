@@ -1,31 +1,48 @@
 import random
 
-def mapping(trending_category):
+from hashtags import popular_hashtags
+
+def mapping():
+	D = popular_hashtags()
+	D.pop('Astrology')
+	D.pop('Environment')
+	D.pop('General')	
+	trending_category = str(random.choice(D.keys()))
+	
+	hashtag = str(random.choice(D[trending_category]))
 
 	entertainment = ['movies','television','music','theatre','art','singing','cartoons','comedy','comics','magic','pornography','science fiction','stunts','video games','radio']
 
-	social_change = ['politics','economics','business','finance','law','history']
+	social_change = ['politics','law','crime','espionage']
+	
+	business = ['economics','business','finance']
 
-	tech = ['technology', 'aeronautics','exploration']
+	tech = ['technology', 'aeronautics']
 
-	criminal = ['crime','espionage','tragedy']
+	education = ['philosophy','literature','education']
 
-	education = ['philosophy','medicine','literature']
-
-
-	if trending_category == 'entertainment':
+	if trending_category == 'TV/Entertainment':
 		genre = str(random.choice(entertainment))
+		opposite_genre = str(random.choice(education))
 	
-	elif trending_category == 'social change':
+	elif trending_category == 'Social Change':
 		genre = str(random.choice(social_change))
-
-	elif trending_category == 'tech':
-		genre = str(random.choice(tech))
-
-	elif trending_category == 'criminal':
-		genre = str(random.choice(criminal))
-
-	elif tending_category == 'education':
-		genre = str(random.choice(education))
+		opposite_genre = str(random.choice(business))
 	
-	return genre
+	elif trending_category == 'Business':
+		genre = str(random.choice(business))
+		opposite_genre = str(random.choice(social_change))
+
+	elif trending_category == 'Tech':
+		genre = str(random.choice(tech))
+		opposite_genre = str(random.choice(social_change))
+
+	elif trending_category == 'Education':
+		genre = str(random.choice(education))
+		opposite_genre = str(random.choice(entertainment))
+	
+	return (genre,hashtag,opposite_genre)
+
+if __name__ == "__main__":
+    x = mapping()
+    print x
