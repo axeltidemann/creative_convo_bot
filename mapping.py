@@ -40,8 +40,6 @@ def mapping():
 	elif trending_category == 'Education':
 		genre = str(random.choice(education))	
 	
-	print trending_category
-	
 	return (genre,hashtag)
 
 

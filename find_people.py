@@ -5,7 +5,7 @@ import random as rand
 
 def guofu_load_data():
 	global all_names, all_genre, oppo_map, all_name_set, people_has_oppo
-	print 'will load data'
+	#print 'will load data'
 	f = open('names.pk', 'r')
 	all_names = cp.load(f)
 	f.close()
@@ -113,10 +113,10 @@ def find_people(genre):
 		else:
 			first_people = rand.sample(people_of_genre_has_oppo, 1)[0]
 			second_people_cand_list = set(oppo_map[first_people])
-			print 'did get 2nd people candidates', str(second_people_cand_list)
+			#print 'did get 2nd people candidates', str(second_people_cand_list)
 			second_people = rand.sample(second_people_cand_list, 1)[0]
 	
-	print 'did find 1st people', first_people, '2nd people', second_people
+        #print 'did find 1st people', first_people, '2nd people', second_people
 
 	if second_people not in all_name_set:
 		print '2nd name %s is not in the KB' % second_people
@@ -125,6 +125,7 @@ def find_people(genre):
 		second_people_info = all_names[second_people]
 	first_people_info = all_names[first_people]
 
-	return ({first_people: first_people_info}, {second_people: second_people_info})
+        return first_people, second_people
+	#return ({first_people: first_people_info}, {second_people: second_people_info})
 
 
