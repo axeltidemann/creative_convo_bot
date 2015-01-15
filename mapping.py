@@ -43,7 +43,6 @@ def mapping():
 	
 	return (genre,hashtag,opposite_genre)
 
-
 if __name__ == "__main__":
     x = mapping()
     print x

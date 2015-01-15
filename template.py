@@ -27,27 +27,14 @@ class KnowledgeBase:
     def random(self):
         return self._to_person(random.choice(self.KB))
 
+def iam(person):
+    return '#IAm{}'.format(person.Character.replace(' ',''))
+
+def youare(person):
+    return '#YouAre{}'.format(person.Character.replace(' ',''))
+
 def first_template(topic, me, other):
-    return '{}: {} {} What do you think, @{}?'.format(me.Character, topic.hashtag, creative_tweet(topic, me, 1), other.Character)
+    return "{} In my {} thinking about {}. What's your opinion, @convo_bot_2? {}".format(iam(me), random.choice(me.Vehicle_of_Choice), topic.hashtag, youare(other))
 
 def second_template(topic, me, other):
-    return '{}: @{} {} {}'.format(me.Character, other.Character, topic.hashtag, creative_tweet(topic, me, -1))
-
-def creative_tweet(topic, person, sentiment):
-    if sentiment < 0:
-        return "I know I am {}, but this is really boring. I prefer {}.".format(random.choice(person.Negative_Talking_Points), random.choice(person.Typical_Activity))
-    else:
-        return "I will jump in my {} and give everyone who doesn't think this is very important a round with my {}!".format(
-            random.choice(person.Vehicle_of_Choice), random.choice(person.Weapon_of_Choice))
-
-if __name__ == '__main__':
-    hashes = popular_hashtags()
-    hashtag = random.choice(hashes[random.choice(hashes.keys())])
-    KB = KnowledgeBase()
-    topic = Topic(hashtag, None, None, None)
-    first = KB.random
-    second = KB.random
-    print first_template(topic, first, second)
-    print
-    print second_template(topic, second, first)
-
+    return "@convo_bot_1 {} I know I am {}, but {} is really boring. I prefer {}.".format(iam(me), random.choice(me.Negative_Talking_Points), topic.hashtag, random.choice(me.Typical_Activity))
