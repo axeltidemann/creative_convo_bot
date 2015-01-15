@@ -8,9 +8,13 @@ from hashtags import popular_hashtags
 from mapping import mapping
 from template import KnowledgeBase, first_template, second_template, Topic
 from find_people import find_people
+from hashtag_description import ht_to_descriptor
 
+# GMail accounts:
 # abrahamlincoln292@gmail.com abeabeabe
 # kardashiank170@gmail.com kim kim kim
+#
+# Twitter accounts same passwords as above.
 
 def publish(auth_keys, tweet):
     url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet})

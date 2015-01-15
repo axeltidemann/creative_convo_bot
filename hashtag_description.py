@@ -25,7 +25,7 @@ def get_obj(sentence):
 	
 	#pattern2	"referring to..."
 	for m in search("refer|referring to {NP}", s):
-		print "pattern 2:"
+		#print "pattern 2:"
 		for nogo in ('things'):
 			if nogo in m.group(1):
 				break	
@@ -33,7 +33,7 @@ def get_obj(sentence):
 		
 	#pattern3	"sentence without verb, pure description"
 	for m in search("{NP} that|which|who is", s):
-		print "pattern 3:"
+		#print "pattern 3:"
 		for nogo in ('term', 'word', 'tag', 'hashtag'):
 			if nogo in m.group(1):
 				break	
@@ -41,7 +41,7 @@ def get_obj(sentence):
 	
 	#pattern1	"... is a ..."
 	for m in search("be {NP}", s):
-		print "pattern 1:"
+		#print "pattern 1:"
 		for nogo in ('thing', 'things'):
 			if nogo in m.group(1):
 				break	
@@ -49,10 +49,10 @@ def get_obj(sentence):
 		
 	#pattern4	just the first noun that he encounters
 	for m in search("{NP}", s):
-		print "pattern 4:"
+		#print "pattern 4:"
 		return m.group(1).string	
 	
-	print "pattern 0"
+        #print "pattern 0"
 	return None
 		
 def ht_to_descriptor(ht):
@@ -62,9 +62,10 @@ def ht_to_descriptor(ht):
 		return get_obj(sentence)
 	return None		
 		
-for ht in ('dwts', 'globalwarming', 'photography', 'socialgood', 'cause', 'volunteer', 'drought'):
-	print
-	print ht_to_descriptor(ht)
+if __name__ == '__main__':
+        for ht in ('dwts', 'globalwarming', 'photography', 'socialgood', 'cause', 'volunteer', 'drought'):
+                print
+                print ht_to_descriptor(ht)
 	
 	
 	

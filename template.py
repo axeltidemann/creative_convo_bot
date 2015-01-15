@@ -5,6 +5,7 @@ import random
 
 from cc_pattern import noc
 from hashtags import popular_hashtags
+from positive import positive, negative
 
 Topic = namedtuple('Topic', ['hashtag', 'who', 'what', 'where'])
 
@@ -33,8 +34,9 @@ def iam(person):
 def youare(person):
     return '#YouAre{}'.format(person.Character.replace(' ',''))
 
-def first_template(topic, me, other):
-    return "{} In my {} thinking about {}. What's your opinion, @convo_bot_2? {}".format(iam(me), random.choice(me.Vehicle_of_Choice), topic.hashtag, youare(other))
+def first_template(topic, me, other): 
+    location = random.choice(me.Vehicle_of_Choice)
+    return "{} In my {} realizing {} is {}. What's your opinion, @convo_bot_2? {}".format(iam(me), location if location is not None else 'bed', topic.hashtag, positive(topic.hashtag[1:]), youare(other))
 
 def second_template(topic, me, other):
-    return "@convo_bot_1 {} I know I am {}, but {} is really boring. I prefer {}.".format(iam(me), random.choice(me.Negative_Talking_Points), topic.hashtag, random.choice(me.Typical_Activity))
+    return "@convo_bot_1 {} I know I am {}, but {} is {}. I prefer {}.".format(iam(me), random.choice(me.Negative_Talking_Points), topic.hashtag, negative(topic.hashtag[1:]), random.choice(me.Typical_Activity))

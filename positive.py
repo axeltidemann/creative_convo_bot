@@ -7,34 +7,52 @@ from pattern.en import sentiment
 
 import re
 
-who = "xfactor"
+def positive(hashtag):
+    x = []
+    twitter = Twitter()
+    k = 0
+    polarity = 0
 
-x = []
+    for i in range(1, 4):
+        for tweet in twitter.search("\"%s is\"" % hashtag, start=i, count=100, cached=True):
+            s = tweet.text
+            s = s.lower()
+            s = re.sub(r"http://.*?(\s|$)", "", s) # Remove URL's.
+            s = parsetree(s, lemmata=True)
 
-twitter = Twitter()
+            for m in search(hashtag.lower() + " be {JJ}", s):
+                x.append(m.group(1).string)
 
-k = 0
+    adjective = None
+    for word in x:
+        s = sentiment(word)[0]
+        if s > polarity:
+            polarity = s
+            adjective = word
 
-polarity = 0
-adjective = 'hello'
+    return adjective if adjective is not None else 'good'
 
-for i in range(1, 4):
-    for tweet in twitter.search("\"%s is\"" % who, start=i, count=100, cached=True):
-        
-        s = tweet.text
-        s = s.lower()
-        s = re.sub(r"http://.*?(\s|$)", "", s) # Remove URL's.
-        s = parsetree(s, lemmata=True)
+def negative(hashtag):
+    x = []
+    twitter = Twitter()
+    k = 0
+    polarity = 0
 
-        for m in search(who.lower() + " be {JJ}", s):
-        	x.append(m.group(1).string)
-        	
+    for i in range(1, 4):
+        for tweet in twitter.search("\"%s is\"" % hashtag, start=i, count=100, cached=True):
+            s = tweet.text
+            s = s.lower()
+            s = re.sub(r"http://.*?(\s|$)", "", s) # Remove URL's.
+            s = parsetree(s, lemmata=True)
 
-for word in x:
-	s = sentiment(word)[0]
-	if s > polarity:
-		polarity = s
-		adjective = word
+            for m in search(hashtag.lower() + " be {JJ}", s):
+                x.append(m.group(1).string)
 
-print adjective
+    adjective = None
+    for word in x:
+        s = sentiment(word)[0]
+        if s < polarity:
+            polarity = s
+            adjective = word
 
+    return adjective if adjective is not None else 'bad'
