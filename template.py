@@ -35,8 +35,8 @@ def youare(person):
     return '#YouAre{}'.format(person.Character.replace(' ',''))
 
 def first_template(topic, me, other): 
-    location = random.choice(me.Vehicle_of_Choice)
-    return "{} In my {} realizing {} is {}. What's your opinion, @convo_bot_2? {}".format(iam(me), location if location is not None else 'bed', topic.hashtag, positive(topic.hashtag[1:]), youare(other))
+    location = 'bed' if len(me.Vehicle_of_Choice) == 1 else random.choice(me.Vehicle_of_Choice)
+    return "{} In my {} realizing {} is {}. What's your opinion, @convo_bot_2? {}".format(iam(me), location, topic.hashtag, positive(topic.hashtag[1:]), youare(other))
 
 def second_template(topic, me, other):
     return "@convo_bot_1 {} I know I am {}, but {} is {}. I prefer {}.".format(iam(me), random.choice(me.Negative_Talking_Points), topic.hashtag, negative(topic.hashtag[1:]), random.choice(me.Typical_Activity))
